@@ -1,0 +1,18 @@
+export const colors = {
+  bgCanvas: '#F5F5F7',
+  bgSurface: '#FFFFFF',
+  bgSurfaceAlt: '#E8E8ED',
+  borderSubtle: '#E5E5EA',
+  borderStrong: '#D2D2D7',
+  textPrimary: '#1D1D1F',
+  textSecondary: '#86868B',
+  textTertiary: '#AEAEB2',
+  accentPrimary: '#0071E3',
+  accentPrimarySoft: '#E5F1FF',
+  accentAmber: '#FF9500',
+  accentAmberSoft: '#FFF2E0',
+  accentRed: '#FF3B30',
+  accentRedSoft: '#FFE5E5',
+  accentBlue: '#0071E3',
+  accentBlueSoft: '#E5F1FF',
+};
