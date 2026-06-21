@@ -1,73 +1,38 @@
-# React + TypeScript + Vite
+# UrbanHive — Intelligent City Mobility OS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+UrbanHive is a premium, real-time City Mobility Operating System designed to orchestrate and optimize urban infrastructure. Inspired by Apple's signature design guidelines, it features clean grid alignments, Outfit typography, responsive glassmorphic cards, and detailed visualization panels.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dynamic Command Center**: A unified overview dashboard including real-time KPI metrics, active system alerts, and comprehensive corridor analytics.
+- **Interactive GIS Map Engine**: Integrates React-Leaflet with dynamic camera controls that smoothly glide (`flyTo`) between key metropolitan regions (Indore, Bhopal, Pune).
+- **Intricate Indore Transit Network**: Simulates 16 major Indore squares (Vijay Nagar, Rajwada, Palasia, Bengali Square, etc.) with physical coordinate connections, congestion indicators, and active BRTS routes.
+- **EV charging Orchestration**: Live load split donut graphs, queue metrics, and an AI-powered charging rebalance system.
+- **Smart Parking Locator**: Color-coded parking occupancy levels and proximity metrics.
+- **Real-Time Camera Feeds**: Interactive traffic video feed streams with AI bounding boxes for real-time pedestrian and vehicle count calculations.
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React 18, Vite, TypeScript
+- **Styling**: Vanilla CSS with Tailwind CSS tokens and Outfit fonts
+- **Icons**: Lucide React
+- **Visuals & Charts**: Recharts (Pie, Radial Bar, Area, and Bar charts)
+- **Map Library**: React-Leaflet & Leaflet.js
+- **Animations**: Framer Motion
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1. Installation
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Run Development Server
+```bash
+npm run dev
+```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 3. Build for Production
+```bash
+npm run build
 ```
