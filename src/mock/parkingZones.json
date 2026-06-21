@@ -1,0 +1,107 @@
+[
+  {
+    "id": "pz-1",
+    "name": "Vijay Nagar Parking Lot",
+    "lat": 22.7540,
+    "lng": 75.8940,
+    "polygon": [
+      [22.755, 75.893],
+      [22.755, 75.895],
+      [22.753, 75.895],
+      [22.753, 75.893]
+    ],
+    "totalSpots": 150,
+    "availableSpots": 12,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "pz-2",
+    "name": "Palasia Multi-level Parking",
+    "lat": 22.7250,
+    "lng": 75.8850,
+    "polygon": [
+      [22.726, 75.884],
+      [22.726, 75.886],
+      [22.724, 75.886],
+      [22.724, 75.884]
+    ],
+    "totalSpots": 80,
+    "availableSpots": 65,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "pz-3",
+    "name": "Bhawarkua Transit Parking Lot",
+    "lat": 22.6920,
+    "lng": 75.8680,
+    "polygon": [
+      [22.693, 75.867],
+      [22.693, 75.869],
+      [22.691, 75.869],
+      [22.691, 75.867]
+    ],
+    "totalSpots": 200,
+    "availableSpots": 0,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "pz-4",
+    "name": "Rajwada Historical Plaza Parking",
+    "lat": 22.7185,
+    "lng": 75.8535,
+    "polygon": [
+      [22.719, 75.852],
+      [22.719, 75.855],
+      [22.717, 75.855],
+      [22.717, 75.852]
+    ],
+    "totalSpots": 120,
+    "availableSpots": 42,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "pz-5",
+    "name": "Annapurna Complex Parking Zone",
+    "lat": 22.7008,
+    "lng": 75.8338,
+    "polygon": [
+      [22.702, 75.832],
+      [22.702, 75.835],
+      [22.699, 75.835],
+      [22.699, 75.832]
+    ],
+    "totalSpots": 100,
+    "availableSpots": 78,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "pz-b1",
+    "name": "MP Nagar Zone-1 Smart Parking",
+    "lat": 23.2322,
+    "lng": 77.4282,
+    "polygon": [
+      [23.233, 77.427],
+      [23.233, 77.429],
+      [23.231, 77.429],
+      [23.231, 77.427]
+    ],
+    "totalSpots": 180,
+    "availableSpots": 55,
+    "city": "Bhopal (MP Nagar)"
+  },
+  {
+    "id": "pz-p1",
+    "name": "Hinjewadi Phase 1 Parking Zone",
+    "lat": 18.5911,
+    "lng": 73.7382,
+    "polygon": [
+      [18.592, 73.737],
+      [18.592, 73.739],
+      [18.590, 73.739],
+      [18.590, 73.737]
+    ],
+    "totalSpots": 250,
+    "availableSpots": 15,
+    "city": "Pune (Hinjewadi)"
+  }
+]

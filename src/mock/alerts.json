@@ -1,0 +1,38 @@
+[
+  {
+    "id": "a-1",
+    "type": "active",
+    "title": "Major Accident",
+    "description": "Multi-vehicle collision reported at AB Road blocking 2 lanes.",
+    "location": "AB Road near LIG",
+    "timestamp": "10:15 AM",
+    "severity": "high"
+  },
+  {
+    "id": "a-2",
+    "type": "predicted",
+    "title": "Severe Congestion Predicted",
+    "description": "Traffic volume increasing 40% above baseline. Likely deadlock in 15m.",
+    "location": "Palasia Square",
+    "timestamp": "10:12 AM",
+    "severity": "high"
+  },
+  {
+    "id": "a-3",
+    "type": "resolved",
+    "title": "Road Closure Lifted",
+    "description": "Construction work finished early. Lane 1 reopened.",
+    "location": "Geeta Bhawan",
+    "timestamp": "09:45 AM",
+    "severity": "low"
+  },
+  {
+    "id": "a-4",
+    "type": "predicted",
+    "title": "Minor Delays Expected",
+    "description": "Public gathering near the park causing slow moving traffic.",
+    "location": "Regal Square",
+    "timestamp": "10:00 AM",
+    "severity": "medium"
+  }
+]

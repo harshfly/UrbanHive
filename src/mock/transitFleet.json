@@ -1,0 +1,92 @@
+[
+  {
+    "id": "v-101",
+    "route": "iBus BRTS - Northbound (Vijay Nagar)",
+    "lat": 22.7400,
+    "lng": 75.8900,
+    "status": "on-time",
+    "nextStopEta": 120,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "v-102",
+    "route": "iBus BRTS - Southbound (Bhawarkua)",
+    "lat": 22.7000,
+    "lng": 75.8700,
+    "status": "delayed",
+    "nextStopEta": 450,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "v-103",
+    "route": "Airport Shuttle (Rajwada Express)",
+    "lat": 22.7300,
+    "lng": 75.8500,
+    "status": "on-time",
+    "nextStopEta": 300,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "v-104",
+    "route": "Ring Road Outer Circle (Radisson link)",
+    "lat": 22.7214,
+    "lng": 75.9080,
+    "status": "on-time",
+    "nextStopEta": 180,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "v-105",
+    "route": "Annapurna Temple Heritage Tour",
+    "lat": 22.7011,
+    "lng": 75.8340,
+    "status": "on-time",
+    "nextStopEta": 240,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "v-106",
+    "route": "Bombay Hospital to Regal Express",
+    "lat": 22.7625,
+    "lng": 75.8970,
+    "status": "delayed",
+    "nextStopEta": 360,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "v-b1",
+    "route": "Bhopal Metro Feeder Route 1",
+    "lat": 23.2324,
+    "lng": 77.4285,
+    "status": "on-time",
+    "nextStopEta": 150,
+    "city": "Bhopal (MP Nagar)"
+  },
+  {
+    "id": "v-b2",
+    "route": "MP Nagar Circular Connector",
+    "lat": 23.2300,
+    "lng": 77.4330,
+    "status": "delayed",
+    "nextStopEta": 400,
+    "city": "Bhopal (MP Nagar)"
+  },
+  {
+    "id": "v-p1",
+    "route": "Hinjewadi IT Park Line A",
+    "lat": 18.5913,
+    "lng": 73.7386,
+    "status": "on-time",
+    "nextStopEta": 110,
+    "city": "Pune (Hinjewadi)"
+  },
+  {
+    "id": "v-p2",
+    "route": "Wakad to Phase 3 Shuttle",
+    "lat": 18.5800,
+    "lng": 73.7380,
+    "status": "delayed",
+    "nextStopEta": 500,
+    "city": "Pune (Hinjewadi)"
+  }
+]

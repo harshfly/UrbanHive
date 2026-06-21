@@ -1,0 +1,112 @@
+[
+  {
+    "id": "c-1",
+    "name": "Vijay Nagar Supercharger Hub",
+    "lat": 22.7485,
+    "lng": 75.8920,
+    "capacity": 20,
+    "currentLoad": 92,
+    "waitTimeMins": 15,
+    "distanceKm": 2.1,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "c-2",
+    "name": "Palasia Shopping Hub Station",
+    "lat": 22.7215,
+    "lng": 75.8755,
+    "capacity": 30,
+    "currentLoad": 12,
+    "waitTimeMins": 0,
+    "distanceKm": 4.5,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "c-3",
+    "name": "Bhawarkua Transit Charging Lot",
+    "lat": 22.6950,
+    "lng": 75.8650,
+    "capacity": 15,
+    "currentLoad": 45,
+    "waitTimeMins": 0,
+    "distanceKm": 8.2,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "c-4",
+    "name": "Radisson Circle Charging Point",
+    "lat": 22.7500,
+    "lng": 75.9100,
+    "capacity": 25,
+    "currentLoad": 68,
+    "waitTimeMins": 5,
+    "distanceKm": 3.8,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "c-5",
+    "name": "Rajwada Chowk Charging Bay",
+    "lat": 22.7180,
+    "lng": 75.8530,
+    "capacity": 12,
+    "currentLoad": 80,
+    "waitTimeMins": 25,
+    "distanceKm": 5.0,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "c-6",
+    "name": "Annapurna Temple West Charging",
+    "lat": 22.7005,
+    "lng": 75.8335,
+    "capacity": 18,
+    "currentLoad": 30,
+    "waitTimeMins": 0,
+    "distanceKm": 7.4,
+    "city": "Indore (Vijay Nagar)"
+  },
+  {
+    "id": "c-b1",
+    "name": "Board Office Square Charging",
+    "lat": 23.2320,
+    "lng": 77.4280,
+    "capacity": 20,
+    "currentLoad": 70,
+    "waitTimeMins": 10,
+    "distanceKm": 1.2,
+    "city": "Bhopal (MP Nagar)"
+  },
+  {
+    "id": "c-b2",
+    "name": "Jyoti Talkies Station",
+    "lat": 23.2305,
+    "lng": 77.4325,
+    "capacity": 15,
+    "currentLoad": 20,
+    "waitTimeMins": 0,
+    "distanceKm": 2.5,
+    "city": "Bhopal (MP Nagar)"
+  },
+  {
+    "id": "c-p1",
+    "name": "Shivaji Chowk Supercharger",
+    "lat": 18.5910,
+    "lng": 73.7380,
+    "capacity": 30,
+    "currentLoad": 95,
+    "waitTimeMins": 20,
+    "distanceKm": 1.5,
+    "city": "Pune (Hinjewadi)"
+  },
+  {
+    "id": "c-p2",
+    "name": "Wipro Circle Charging Point",
+    "lat": 18.5805,
+    "lng": 73.7375,
+    "capacity": 25,
+    "currentLoad": 40,
+    "waitTimeMins": 0,
+    "distanceKm": 3.0,
+    "city": "Pune (Hinjewadi)"
+  }
+]

@@ -1,0 +1,5762 @@
+[
+  {
+    "minuteOfDay": 0,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 1,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 2,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 3,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 4,
+    "congestionLevel": 60
+  },
+  {
+    "minuteOfDay": 5,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 6,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 7,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 8,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 9,
+    "congestionLevel": 17
+  },
+  {
+    "minuteOfDay": 10,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 11,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 12,
+    "congestionLevel": 20
+  },
+  {
+    "minuteOfDay": 13,
+    "congestionLevel": 54
+  },
+  {
+    "minuteOfDay": 14,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 15,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 16,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 17,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 18,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 19,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 20,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 21,
+    "congestionLevel": 94
+  },
+  {
+    "minuteOfDay": 22,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 23,
+    "congestionLevel": 12
+  },
+  {
+    "minuteOfDay": 24,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 25,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 26,
+    "congestionLevel": 79
+  },
+  {
+    "minuteOfDay": 27,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 28,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 29,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 30,
+    "congestionLevel": 4
+  },
+  {
+    "minuteOfDay": 31,
+    "congestionLevel": 4
+  },
+  {
+    "minuteOfDay": 32,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 33,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 34,
+    "congestionLevel": 57
+  },
+  {
+    "minuteOfDay": 35,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 36,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 37,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 38,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 39,
+    "congestionLevel": 89
+  },
+  {
+    "minuteOfDay": 40,
+    "congestionLevel": 18
+  },
+  {
+    "minuteOfDay": 41,
+    "congestionLevel": 81
+  },
+  {
+    "minuteOfDay": 42,
+    "congestionLevel": 44
+  },
+  {
+    "minuteOfDay": 43,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 44,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 45,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 46,
+    "congestionLevel": 21
+  },
+  {
+    "minuteOfDay": 47,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 48,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 49,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 50,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 51,
+    "congestionLevel": 71
+  },
+  {
+    "minuteOfDay": 52,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 53,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 54,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 55,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 56,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 57,
+    "congestionLevel": 70
+  },
+  {
+    "minuteOfDay": 58,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 59,
+    "congestionLevel": 37
+  },
+  {
+    "minuteOfDay": 60,
+    "congestionLevel": 15
+  },
+  {
+    "minuteOfDay": 61,
+    "congestionLevel": 26
+  },
+  {
+    "minuteOfDay": 62,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 63,
+    "congestionLevel": 2
+  },
+  {
+    "minuteOfDay": 64,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 65,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 66,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 67,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 68,
+    "congestionLevel": 33
+  },
+  {
+    "minuteOfDay": 69,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 70,
+    "congestionLevel": 93
+  },
+  {
+    "minuteOfDay": 71,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 72,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 73,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 74,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 75,
+    "congestionLevel": 69
+  },
+  {
+    "minuteOfDay": 76,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 77,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 78,
+    "congestionLevel": 89
+  },
+  {
+    "minuteOfDay": 79,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 80,
+    "congestionLevel": 57
+  },
+  {
+    "minuteOfDay": 81,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 82,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 83,
+    "congestionLevel": 76
+  },
+  {
+    "minuteOfDay": 84,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 85,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 86,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 87,
+    "congestionLevel": 33
+  },
+  {
+    "minuteOfDay": 88,
+    "congestionLevel": 32
+  },
+  {
+    "minuteOfDay": 89,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 90,
+    "congestionLevel": 71
+  },
+  {
+    "minuteOfDay": 91,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 92,
+    "congestionLevel": 60
+  },
+  {
+    "minuteOfDay": 93,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 94,
+    "congestionLevel": 16
+  },
+  {
+    "minuteOfDay": 95,
+    "congestionLevel": 73
+  },
+  {
+    "minuteOfDay": 96,
+    "congestionLevel": 54
+  },
+  {
+    "minuteOfDay": 97,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 98,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 99,
+    "congestionLevel": 42
+  },
+  {
+    "minuteOfDay": 100,
+    "congestionLevel": 13
+  },
+  {
+    "minuteOfDay": 101,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 102,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 103,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 104,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 105,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 106,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 107,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 108,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 109,
+    "congestionLevel": 94
+  },
+  {
+    "minuteOfDay": 110,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 111,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 112,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 113,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 114,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 115,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 116,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 117,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 118,
+    "congestionLevel": 49
+  },
+  {
+    "minuteOfDay": 119,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 120,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 121,
+    "congestionLevel": 15
+  },
+  {
+    "minuteOfDay": 122,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 123,
+    "congestionLevel": 21
+  },
+  {
+    "minuteOfDay": 124,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 125,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 126,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 127,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 128,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 129,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 130,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 131,
+    "congestionLevel": 18
+  },
+  {
+    "minuteOfDay": 132,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 133,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 134,
+    "congestionLevel": 57
+  },
+  {
+    "minuteOfDay": 135,
+    "congestionLevel": 16
+  },
+  {
+    "minuteOfDay": 136,
+    "congestionLevel": 26
+  },
+  {
+    "minuteOfDay": 137,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 138,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 139,
+    "congestionLevel": 76
+  },
+  {
+    "minuteOfDay": 140,
+    "congestionLevel": 2
+  },
+  {
+    "minuteOfDay": 141,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 142,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 143,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 144,
+    "congestionLevel": 94
+  },
+  {
+    "minuteOfDay": 145,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 146,
+    "congestionLevel": 60
+  },
+  {
+    "minuteOfDay": 147,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 148,
+    "congestionLevel": 36
+  },
+  {
+    "minuteOfDay": 149,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 150,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 151,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 152,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 153,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 154,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 155,
+    "congestionLevel": 42
+  },
+  {
+    "minuteOfDay": 156,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 157,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 158,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 159,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 160,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 161,
+    "congestionLevel": 19
+  },
+  {
+    "minuteOfDay": 162,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 163,
+    "congestionLevel": 57
+  },
+  {
+    "minuteOfDay": 164,
+    "congestionLevel": 15
+  },
+  {
+    "minuteOfDay": 165,
+    "congestionLevel": 84
+  },
+  {
+    "minuteOfDay": 166,
+    "congestionLevel": 17
+  },
+  {
+    "minuteOfDay": 167,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 168,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 169,
+    "congestionLevel": 13
+  },
+  {
+    "minuteOfDay": 170,
+    "congestionLevel": 4
+  },
+  {
+    "minuteOfDay": 171,
+    "congestionLevel": 44
+  },
+  {
+    "minuteOfDay": 172,
+    "congestionLevel": 44
+  },
+  {
+    "minuteOfDay": 173,
+    "congestionLevel": 57
+  },
+  {
+    "minuteOfDay": 174,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 175,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 176,
+    "congestionLevel": 73
+  },
+  {
+    "minuteOfDay": 177,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 178,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 179,
+    "congestionLevel": 3
+  },
+  {
+    "minuteOfDay": 180,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 181,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 182,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 183,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 184,
+    "congestionLevel": 81
+  },
+  {
+    "minuteOfDay": 185,
+    "congestionLevel": 60
+  },
+  {
+    "minuteOfDay": 186,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 187,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 188,
+    "congestionLevel": 73
+  },
+  {
+    "minuteOfDay": 189,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 190,
+    "congestionLevel": 42
+  },
+  {
+    "minuteOfDay": 191,
+    "congestionLevel": 57
+  },
+  {
+    "minuteOfDay": 192,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 193,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 194,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 195,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 196,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 197,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 198,
+    "congestionLevel": 17
+  },
+  {
+    "minuteOfDay": 199,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 200,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 201,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 202,
+    "congestionLevel": 13
+  },
+  {
+    "minuteOfDay": 203,
+    "congestionLevel": 20
+  },
+  {
+    "minuteOfDay": 204,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 205,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 206,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 207,
+    "congestionLevel": 84
+  },
+  {
+    "minuteOfDay": 208,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 209,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 210,
+    "congestionLevel": 22
+  },
+  {
+    "minuteOfDay": 211,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 212,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 213,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 214,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 215,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 216,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 217,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 218,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 219,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 220,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 221,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 222,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 223,
+    "congestionLevel": 84
+  },
+  {
+    "minuteOfDay": 224,
+    "congestionLevel": 49
+  },
+  {
+    "minuteOfDay": 225,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 226,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 227,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 228,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 229,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 230,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 231,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 232,
+    "congestionLevel": 72
+  },
+  {
+    "minuteOfDay": 233,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 234,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 235,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 236,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 237,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 238,
+    "congestionLevel": 70
+  },
+  {
+    "minuteOfDay": 239,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 240,
+    "congestionLevel": 93
+  },
+  {
+    "minuteOfDay": 241,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 242,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 243,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 244,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 245,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 246,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 247,
+    "congestionLevel": 26
+  },
+  {
+    "minuteOfDay": 248,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 249,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 250,
+    "congestionLevel": 86
+  },
+  {
+    "minuteOfDay": 251,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 252,
+    "congestionLevel": 79
+  },
+  {
+    "minuteOfDay": 253,
+    "congestionLevel": 2
+  },
+  {
+    "minuteOfDay": 254,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 255,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 256,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 257,
+    "congestionLevel": 21
+  },
+  {
+    "minuteOfDay": 258,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 259,
+    "congestionLevel": 20
+  },
+  {
+    "minuteOfDay": 260,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 261,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 262,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 263,
+    "congestionLevel": 73
+  },
+  {
+    "minuteOfDay": 264,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 265,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 266,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 267,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 268,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 269,
+    "congestionLevel": 84
+  },
+  {
+    "minuteOfDay": 270,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 271,
+    "congestionLevel": 13
+  },
+  {
+    "minuteOfDay": 272,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 273,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 274,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 275,
+    "congestionLevel": 70
+  },
+  {
+    "minuteOfDay": 276,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 277,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 278,
+    "congestionLevel": 48
+  },
+  {
+    "minuteOfDay": 279,
+    "congestionLevel": 93
+  },
+  {
+    "minuteOfDay": 280,
+    "congestionLevel": 19
+  },
+  {
+    "minuteOfDay": 281,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 282,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 283,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 284,
+    "congestionLevel": 2
+  },
+  {
+    "minuteOfDay": 285,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 286,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 287,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 288,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 289,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 290,
+    "congestionLevel": 3
+  },
+  {
+    "minuteOfDay": 291,
+    "congestionLevel": 94
+  },
+  {
+    "minuteOfDay": 292,
+    "congestionLevel": 36
+  },
+  {
+    "minuteOfDay": 293,
+    "congestionLevel": 21
+  },
+  {
+    "minuteOfDay": 294,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 295,
+    "congestionLevel": 71
+  },
+  {
+    "minuteOfDay": 296,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 297,
+    "congestionLevel": 54
+  },
+  {
+    "minuteOfDay": 298,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 299,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 300,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 301,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 302,
+    "congestionLevel": 16
+  },
+  {
+    "minuteOfDay": 303,
+    "congestionLevel": 20
+  },
+  {
+    "minuteOfDay": 304,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 305,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 306,
+    "congestionLevel": 3
+  },
+  {
+    "minuteOfDay": 307,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 308,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 309,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 310,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 311,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 312,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 313,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 314,
+    "congestionLevel": 18
+  },
+  {
+    "minuteOfDay": 315,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 316,
+    "congestionLevel": 81
+  },
+  {
+    "minuteOfDay": 317,
+    "congestionLevel": 37
+  },
+  {
+    "minuteOfDay": 318,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 319,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 320,
+    "congestionLevel": 72
+  },
+  {
+    "minuteOfDay": 321,
+    "congestionLevel": 72
+  },
+  {
+    "minuteOfDay": 322,
+    "congestionLevel": 16
+  },
+  {
+    "minuteOfDay": 323,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 324,
+    "congestionLevel": 4
+  },
+  {
+    "minuteOfDay": 325,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 326,
+    "congestionLevel": 48
+  },
+  {
+    "minuteOfDay": 327,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 328,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 329,
+    "congestionLevel": 16
+  },
+  {
+    "minuteOfDay": 330,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 331,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 332,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 333,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 334,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 335,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 336,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 337,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 338,
+    "congestionLevel": 86
+  },
+  {
+    "minuteOfDay": 339,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 340,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 341,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 342,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 343,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 344,
+    "congestionLevel": 44
+  },
+  {
+    "minuteOfDay": 345,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 346,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 347,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 348,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 349,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 350,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 351,
+    "congestionLevel": 69
+  },
+  {
+    "minuteOfDay": 352,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 353,
+    "congestionLevel": 72
+  },
+  {
+    "minuteOfDay": 354,
+    "congestionLevel": 73
+  },
+  {
+    "minuteOfDay": 355,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 356,
+    "congestionLevel": 93
+  },
+  {
+    "minuteOfDay": 357,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 358,
+    "congestionLevel": 60
+  },
+  {
+    "minuteOfDay": 359,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 360,
+    "congestionLevel": 32
+  },
+  {
+    "minuteOfDay": 361,
+    "congestionLevel": 12
+  },
+  {
+    "minuteOfDay": 362,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 363,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 364,
+    "congestionLevel": 89
+  },
+  {
+    "minuteOfDay": 365,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 366,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 367,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 368,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 369,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 370,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 371,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 372,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 373,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 374,
+    "congestionLevel": 26
+  },
+  {
+    "minuteOfDay": 375,
+    "congestionLevel": 44
+  },
+  {
+    "minuteOfDay": 376,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 377,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 378,
+    "congestionLevel": 84
+  },
+  {
+    "minuteOfDay": 379,
+    "congestionLevel": 71
+  },
+  {
+    "minuteOfDay": 380,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 381,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 382,
+    "congestionLevel": 54
+  },
+  {
+    "minuteOfDay": 383,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 384,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 385,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 386,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 387,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 388,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 389,
+    "congestionLevel": 17
+  },
+  {
+    "minuteOfDay": 390,
+    "congestionLevel": 26
+  },
+  {
+    "minuteOfDay": 391,
+    "congestionLevel": 48
+  },
+  {
+    "minuteOfDay": 392,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 393,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 394,
+    "congestionLevel": 81
+  },
+  {
+    "minuteOfDay": 395,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 396,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 397,
+    "congestionLevel": 69
+  },
+  {
+    "minuteOfDay": 398,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 399,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 400,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 401,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 402,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 403,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 404,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 405,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 406,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 407,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 408,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 409,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 410,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 411,
+    "congestionLevel": 36
+  },
+  {
+    "minuteOfDay": 412,
+    "congestionLevel": 2
+  },
+  {
+    "minuteOfDay": 413,
+    "congestionLevel": 36
+  },
+  {
+    "minuteOfDay": 414,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 415,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 416,
+    "congestionLevel": 4
+  },
+  {
+    "minuteOfDay": 417,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 418,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 419,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 420,
+    "congestionLevel": 72
+  },
+  {
+    "minuteOfDay": 421,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 422,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 423,
+    "congestionLevel": 13
+  },
+  {
+    "minuteOfDay": 424,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 425,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 426,
+    "congestionLevel": 60
+  },
+  {
+    "minuteOfDay": 427,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 428,
+    "congestionLevel": 24
+  },
+  {
+    "minuteOfDay": 429,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 430,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 431,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 432,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 433,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 434,
+    "congestionLevel": 76
+  },
+  {
+    "minuteOfDay": 435,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 436,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 437,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 438,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 439,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 440,
+    "congestionLevel": 49
+  },
+  {
+    "minuteOfDay": 441,
+    "congestionLevel": 71
+  },
+  {
+    "minuteOfDay": 442,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 443,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 444,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 445,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 446,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 447,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 448,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 449,
+    "congestionLevel": 70
+  },
+  {
+    "minuteOfDay": 450,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 451,
+    "congestionLevel": 20
+  },
+  {
+    "minuteOfDay": 452,
+    "congestionLevel": 56
+  },
+  {
+    "minuteOfDay": 453,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 454,
+    "congestionLevel": 89
+  },
+  {
+    "minuteOfDay": 455,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 456,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 457,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 458,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 459,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 460,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 461,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 462,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 463,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 464,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 465,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 466,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 467,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 468,
+    "congestionLevel": 37
+  },
+  {
+    "minuteOfDay": 469,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 470,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 471,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 472,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 473,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 474,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 475,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 476,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 477,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 478,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 479,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 480,
+    "congestionLevel": 24
+  },
+  {
+    "minuteOfDay": 481,
+    "congestionLevel": 20
+  },
+  {
+    "minuteOfDay": 482,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 483,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 484,
+    "congestionLevel": 44
+  },
+  {
+    "minuteOfDay": 485,
+    "congestionLevel": 3
+  },
+  {
+    "minuteOfDay": 486,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 487,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 488,
+    "congestionLevel": 24
+  },
+  {
+    "minuteOfDay": 489,
+    "congestionLevel": 57
+  },
+  {
+    "minuteOfDay": 490,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 491,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 492,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 493,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 494,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 495,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 496,
+    "congestionLevel": 79
+  },
+  {
+    "minuteOfDay": 497,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 498,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 499,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 500,
+    "congestionLevel": 37
+  },
+  {
+    "minuteOfDay": 501,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 502,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 503,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 504,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 505,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 506,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 507,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 508,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 509,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 510,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 511,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 512,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 513,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 514,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 515,
+    "congestionLevel": 56
+  },
+  {
+    "minuteOfDay": 516,
+    "congestionLevel": 73
+  },
+  {
+    "minuteOfDay": 517,
+    "congestionLevel": 17
+  },
+  {
+    "minuteOfDay": 518,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 519,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 520,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 521,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 522,
+    "congestionLevel": 26
+  },
+  {
+    "minuteOfDay": 523,
+    "congestionLevel": 33
+  },
+  {
+    "minuteOfDay": 524,
+    "congestionLevel": 49
+  },
+  {
+    "minuteOfDay": 525,
+    "congestionLevel": 72
+  },
+  {
+    "minuteOfDay": 526,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 527,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 528,
+    "congestionLevel": 15
+  },
+  {
+    "minuteOfDay": 529,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 530,
+    "congestionLevel": 26
+  },
+  {
+    "minuteOfDay": 531,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 532,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 533,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 534,
+    "congestionLevel": 73
+  },
+  {
+    "minuteOfDay": 535,
+    "congestionLevel": 89
+  },
+  {
+    "minuteOfDay": 536,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 537,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 538,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 539,
+    "congestionLevel": 44
+  },
+  {
+    "minuteOfDay": 540,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 541,
+    "congestionLevel": 57
+  },
+  {
+    "minuteOfDay": 542,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 543,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 544,
+    "congestionLevel": 70
+  },
+  {
+    "minuteOfDay": 545,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 546,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 547,
+    "congestionLevel": 15
+  },
+  {
+    "minuteOfDay": 548,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 549,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 550,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 551,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 552,
+    "congestionLevel": 18
+  },
+  {
+    "minuteOfDay": 553,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 554,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 555,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 556,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 557,
+    "congestionLevel": 57
+  },
+  {
+    "minuteOfDay": 558,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 559,
+    "congestionLevel": 49
+  },
+  {
+    "minuteOfDay": 560,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 561,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 562,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 563,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 564,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 565,
+    "congestionLevel": 79
+  },
+  {
+    "minuteOfDay": 566,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 567,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 568,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 569,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 570,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 571,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 572,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 573,
+    "congestionLevel": 16
+  },
+  {
+    "minuteOfDay": 574,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 575,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 576,
+    "congestionLevel": 33
+  },
+  {
+    "minuteOfDay": 577,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 578,
+    "congestionLevel": 33
+  },
+  {
+    "minuteOfDay": 579,
+    "congestionLevel": 37
+  },
+  {
+    "minuteOfDay": 580,
+    "congestionLevel": 56
+  },
+  {
+    "minuteOfDay": 581,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 582,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 583,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 584,
+    "congestionLevel": 57
+  },
+  {
+    "minuteOfDay": 585,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 586,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 587,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 588,
+    "congestionLevel": 62
+  },
+  {
+    "minuteOfDay": 589,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 590,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 591,
+    "congestionLevel": 44
+  },
+  {
+    "minuteOfDay": 592,
+    "congestionLevel": 48
+  },
+  {
+    "minuteOfDay": 593,
+    "congestionLevel": 19
+  },
+  {
+    "minuteOfDay": 594,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 595,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 596,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 597,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 598,
+    "congestionLevel": 2
+  },
+  {
+    "minuteOfDay": 599,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 600,
+    "congestionLevel": 20
+  },
+  {
+    "minuteOfDay": 601,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 602,
+    "congestionLevel": 86
+  },
+  {
+    "minuteOfDay": 603,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 604,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 605,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 606,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 607,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 608,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 609,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 610,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 611,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 612,
+    "congestionLevel": 86
+  },
+  {
+    "minuteOfDay": 613,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 614,
+    "congestionLevel": 54
+  },
+  {
+    "minuteOfDay": 615,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 616,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 617,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 618,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 619,
+    "congestionLevel": 81
+  },
+  {
+    "minuteOfDay": 620,
+    "congestionLevel": 86
+  },
+  {
+    "minuteOfDay": 621,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 622,
+    "congestionLevel": 37
+  },
+  {
+    "minuteOfDay": 623,
+    "congestionLevel": 22
+  },
+  {
+    "minuteOfDay": 624,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 625,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 626,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 627,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 628,
+    "congestionLevel": 18
+  },
+  {
+    "minuteOfDay": 629,
+    "congestionLevel": 32
+  },
+  {
+    "minuteOfDay": 630,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 631,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 632,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 633,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 634,
+    "congestionLevel": 56
+  },
+  {
+    "minuteOfDay": 635,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 636,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 637,
+    "congestionLevel": 49
+  },
+  {
+    "minuteOfDay": 638,
+    "congestionLevel": 37
+  },
+  {
+    "minuteOfDay": 639,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 640,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 641,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 642,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 643,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 644,
+    "congestionLevel": 94
+  },
+  {
+    "minuteOfDay": 645,
+    "congestionLevel": 71
+  },
+  {
+    "minuteOfDay": 646,
+    "congestionLevel": 2
+  },
+  {
+    "minuteOfDay": 647,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 648,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 649,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 650,
+    "congestionLevel": 70
+  },
+  {
+    "minuteOfDay": 651,
+    "congestionLevel": 13
+  },
+  {
+    "minuteOfDay": 652,
+    "congestionLevel": 71
+  },
+  {
+    "minuteOfDay": 653,
+    "congestionLevel": 3
+  },
+  {
+    "minuteOfDay": 654,
+    "congestionLevel": 71
+  },
+  {
+    "minuteOfDay": 655,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 656,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 657,
+    "congestionLevel": 44
+  },
+  {
+    "minuteOfDay": 658,
+    "congestionLevel": 32
+  },
+  {
+    "minuteOfDay": 659,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 660,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 661,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 662,
+    "congestionLevel": 79
+  },
+  {
+    "minuteOfDay": 663,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 664,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 665,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 666,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 667,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 668,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 669,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 670,
+    "congestionLevel": 93
+  },
+  {
+    "minuteOfDay": 671,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 672,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 673,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 674,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 675,
+    "congestionLevel": 84
+  },
+  {
+    "minuteOfDay": 676,
+    "congestionLevel": 20
+  },
+  {
+    "minuteOfDay": 677,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 678,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 679,
+    "congestionLevel": 37
+  },
+  {
+    "minuteOfDay": 680,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 681,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 682,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 683,
+    "congestionLevel": 12
+  },
+  {
+    "minuteOfDay": 684,
+    "congestionLevel": 12
+  },
+  {
+    "minuteOfDay": 685,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 686,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 687,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 688,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 689,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 690,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 691,
+    "congestionLevel": 69
+  },
+  {
+    "minuteOfDay": 692,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 693,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 694,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 695,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 696,
+    "congestionLevel": 4
+  },
+  {
+    "minuteOfDay": 697,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 698,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 699,
+    "congestionLevel": 81
+  },
+  {
+    "minuteOfDay": 700,
+    "congestionLevel": 94
+  },
+  {
+    "minuteOfDay": 701,
+    "congestionLevel": 37
+  },
+  {
+    "minuteOfDay": 702,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 703,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 704,
+    "congestionLevel": 17
+  },
+  {
+    "minuteOfDay": 705,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 706,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 707,
+    "congestionLevel": 33
+  },
+  {
+    "minuteOfDay": 708,
+    "congestionLevel": 84
+  },
+  {
+    "minuteOfDay": 709,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 710,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 711,
+    "congestionLevel": 70
+  },
+  {
+    "minuteOfDay": 712,
+    "congestionLevel": 17
+  },
+  {
+    "minuteOfDay": 713,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 714,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 715,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 716,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 717,
+    "congestionLevel": 33
+  },
+  {
+    "minuteOfDay": 718,
+    "congestionLevel": 70
+  },
+  {
+    "minuteOfDay": 719,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 720,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 721,
+    "congestionLevel": 76
+  },
+  {
+    "minuteOfDay": 722,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 723,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 724,
+    "congestionLevel": 21
+  },
+  {
+    "minuteOfDay": 725,
+    "congestionLevel": 32
+  },
+  {
+    "minuteOfDay": 726,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 727,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 728,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 729,
+    "congestionLevel": 48
+  },
+  {
+    "minuteOfDay": 730,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 731,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 732,
+    "congestionLevel": 42
+  },
+  {
+    "minuteOfDay": 733,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 734,
+    "congestionLevel": 4
+  },
+  {
+    "minuteOfDay": 735,
+    "congestionLevel": 26
+  },
+  {
+    "minuteOfDay": 736,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 737,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 738,
+    "congestionLevel": 89
+  },
+  {
+    "minuteOfDay": 739,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 740,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 741,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 742,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 743,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 744,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 745,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 746,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 747,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 748,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 749,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 750,
+    "congestionLevel": 84
+  },
+  {
+    "minuteOfDay": 751,
+    "congestionLevel": 94
+  },
+  {
+    "minuteOfDay": 752,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 753,
+    "congestionLevel": 22
+  },
+  {
+    "minuteOfDay": 754,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 755,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 756,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 757,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 758,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 759,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 760,
+    "congestionLevel": 69
+  },
+  {
+    "minuteOfDay": 761,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 762,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 763,
+    "congestionLevel": 2
+  },
+  {
+    "minuteOfDay": 764,
+    "congestionLevel": 26
+  },
+  {
+    "minuteOfDay": 765,
+    "congestionLevel": 24
+  },
+  {
+    "minuteOfDay": 766,
+    "congestionLevel": 56
+  },
+  {
+    "minuteOfDay": 767,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 768,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 769,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 770,
+    "congestionLevel": 18
+  },
+  {
+    "minuteOfDay": 771,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 772,
+    "congestionLevel": 33
+  },
+  {
+    "minuteOfDay": 773,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 774,
+    "congestionLevel": 70
+  },
+  {
+    "minuteOfDay": 775,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 776,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 777,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 778,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 779,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 780,
+    "congestionLevel": 54
+  },
+  {
+    "minuteOfDay": 781,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 782,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 783,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 784,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 785,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 786,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 787,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 788,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 789,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 790,
+    "congestionLevel": 86
+  },
+  {
+    "minuteOfDay": 791,
+    "congestionLevel": 32
+  },
+  {
+    "minuteOfDay": 792,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 793,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 794,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 795,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 796,
+    "congestionLevel": 32
+  },
+  {
+    "minuteOfDay": 797,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 798,
+    "congestionLevel": 15
+  },
+  {
+    "minuteOfDay": 799,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 800,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 801,
+    "congestionLevel": 17
+  },
+  {
+    "minuteOfDay": 802,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 803,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 804,
+    "congestionLevel": 49
+  },
+  {
+    "minuteOfDay": 805,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 806,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 807,
+    "congestionLevel": 48
+  },
+  {
+    "minuteOfDay": 808,
+    "congestionLevel": 26
+  },
+  {
+    "minuteOfDay": 809,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 810,
+    "congestionLevel": 62
+  },
+  {
+    "minuteOfDay": 811,
+    "congestionLevel": 2
+  },
+  {
+    "minuteOfDay": 812,
+    "congestionLevel": 93
+  },
+  {
+    "minuteOfDay": 813,
+    "congestionLevel": 4
+  },
+  {
+    "minuteOfDay": 814,
+    "congestionLevel": 76
+  },
+  {
+    "minuteOfDay": 815,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 816,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 817,
+    "congestionLevel": 84
+  },
+  {
+    "minuteOfDay": 818,
+    "congestionLevel": 72
+  },
+  {
+    "minuteOfDay": 819,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 820,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 821,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 822,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 823,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 824,
+    "congestionLevel": 48
+  },
+  {
+    "minuteOfDay": 825,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 826,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 827,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 828,
+    "congestionLevel": 20
+  },
+  {
+    "minuteOfDay": 829,
+    "congestionLevel": 32
+  },
+  {
+    "minuteOfDay": 830,
+    "congestionLevel": 32
+  },
+  {
+    "minuteOfDay": 831,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 832,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 833,
+    "congestionLevel": 24
+  },
+  {
+    "minuteOfDay": 834,
+    "congestionLevel": 54
+  },
+  {
+    "minuteOfDay": 835,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 836,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 837,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 838,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 839,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 840,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 841,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 842,
+    "congestionLevel": 12
+  },
+  {
+    "minuteOfDay": 843,
+    "congestionLevel": 54
+  },
+  {
+    "minuteOfDay": 844,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 845,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 846,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 847,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 848,
+    "congestionLevel": 32
+  },
+  {
+    "minuteOfDay": 849,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 850,
+    "congestionLevel": 73
+  },
+  {
+    "minuteOfDay": 851,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 852,
+    "congestionLevel": 62
+  },
+  {
+    "minuteOfDay": 853,
+    "congestionLevel": 72
+  },
+  {
+    "minuteOfDay": 854,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 855,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 856,
+    "congestionLevel": 24
+  },
+  {
+    "minuteOfDay": 857,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 858,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 859,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 860,
+    "congestionLevel": 81
+  },
+  {
+    "minuteOfDay": 861,
+    "congestionLevel": 81
+  },
+  {
+    "minuteOfDay": 862,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 863,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 864,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 865,
+    "congestionLevel": 22
+  },
+  {
+    "minuteOfDay": 866,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 867,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 868,
+    "congestionLevel": 62
+  },
+  {
+    "minuteOfDay": 869,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 870,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 871,
+    "congestionLevel": 81
+  },
+  {
+    "minuteOfDay": 872,
+    "congestionLevel": 94
+  },
+  {
+    "minuteOfDay": 873,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 874,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 875,
+    "congestionLevel": 36
+  },
+  {
+    "minuteOfDay": 876,
+    "congestionLevel": 89
+  },
+  {
+    "minuteOfDay": 877,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 878,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 879,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 880,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 881,
+    "congestionLevel": 54
+  },
+  {
+    "minuteOfDay": 882,
+    "congestionLevel": 4
+  },
+  {
+    "minuteOfDay": 883,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 884,
+    "congestionLevel": 93
+  },
+  {
+    "minuteOfDay": 885,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 886,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 887,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 888,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 889,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 890,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 891,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 892,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 893,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 894,
+    "congestionLevel": 69
+  },
+  {
+    "minuteOfDay": 895,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 896,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 897,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 898,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 899,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 900,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 901,
+    "congestionLevel": 37
+  },
+  {
+    "minuteOfDay": 902,
+    "congestionLevel": 69
+  },
+  {
+    "minuteOfDay": 903,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 904,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 905,
+    "congestionLevel": 18
+  },
+  {
+    "minuteOfDay": 906,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 907,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 908,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 909,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 910,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 911,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 912,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 913,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 914,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 915,
+    "congestionLevel": 48
+  },
+  {
+    "minuteOfDay": 916,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 917,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 918,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 919,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 920,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 921,
+    "congestionLevel": 15
+  },
+  {
+    "minuteOfDay": 922,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 923,
+    "congestionLevel": 79
+  },
+  {
+    "minuteOfDay": 924,
+    "congestionLevel": 21
+  },
+  {
+    "minuteOfDay": 925,
+    "congestionLevel": 48
+  },
+  {
+    "minuteOfDay": 926,
+    "congestionLevel": 2
+  },
+  {
+    "minuteOfDay": 927,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 928,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 929,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 930,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 931,
+    "congestionLevel": 60
+  },
+  {
+    "minuteOfDay": 932,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 933,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 934,
+    "congestionLevel": 60
+  },
+  {
+    "minuteOfDay": 935,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 936,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 937,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 938,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 939,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 940,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 941,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 942,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 943,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 944,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 945,
+    "congestionLevel": 72
+  },
+  {
+    "minuteOfDay": 946,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 947,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 948,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 949,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 950,
+    "congestionLevel": 20
+  },
+  {
+    "minuteOfDay": 951,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 952,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 953,
+    "congestionLevel": 17
+  },
+  {
+    "minuteOfDay": 954,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 955,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 956,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 957,
+    "congestionLevel": 93
+  },
+  {
+    "minuteOfDay": 958,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 959,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 960,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 961,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 962,
+    "congestionLevel": 70
+  },
+  {
+    "minuteOfDay": 963,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 964,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 965,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 966,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 967,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 968,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 969,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 970,
+    "congestionLevel": 94
+  },
+  {
+    "minuteOfDay": 971,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 972,
+    "congestionLevel": 15
+  },
+  {
+    "minuteOfDay": 973,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 974,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 975,
+    "congestionLevel": 12
+  },
+  {
+    "minuteOfDay": 976,
+    "congestionLevel": 15
+  },
+  {
+    "minuteOfDay": 977,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 978,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 979,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 980,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 981,
+    "congestionLevel": 86
+  },
+  {
+    "minuteOfDay": 982,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 983,
+    "congestionLevel": 12
+  },
+  {
+    "minuteOfDay": 984,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 985,
+    "congestionLevel": 36
+  },
+  {
+    "minuteOfDay": 986,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 987,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 988,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 989,
+    "congestionLevel": 72
+  },
+  {
+    "minuteOfDay": 990,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 991,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 992,
+    "congestionLevel": 12
+  },
+  {
+    "minuteOfDay": 993,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 994,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 995,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 996,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 997,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 998,
+    "congestionLevel": 2
+  },
+  {
+    "minuteOfDay": 999,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 1000,
+    "congestionLevel": 15
+  },
+  {
+    "minuteOfDay": 1001,
+    "congestionLevel": 12
+  },
+  {
+    "minuteOfDay": 1002,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 1003,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 1004,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 1005,
+    "congestionLevel": 56
+  },
+  {
+    "minuteOfDay": 1006,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 1007,
+    "congestionLevel": 36
+  },
+  {
+    "minuteOfDay": 1008,
+    "congestionLevel": 24
+  },
+  {
+    "minuteOfDay": 1009,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 1010,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 1011,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 1012,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 1013,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 1014,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 1015,
+    "congestionLevel": 17
+  },
+  {
+    "minuteOfDay": 1016,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 1017,
+    "congestionLevel": 13
+  },
+  {
+    "minuteOfDay": 1018,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 1019,
+    "congestionLevel": 49
+  },
+  {
+    "minuteOfDay": 1020,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 1021,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 1022,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 1023,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 1024,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 1025,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 1026,
+    "congestionLevel": 47
+  },
+  {
+    "minuteOfDay": 1027,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 1028,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 1029,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 1030,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 1031,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 1032,
+    "congestionLevel": 69
+  },
+  {
+    "minuteOfDay": 1033,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 1034,
+    "congestionLevel": 19
+  },
+  {
+    "minuteOfDay": 1035,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 1036,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 1037,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 1038,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 1039,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 1040,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 1041,
+    "congestionLevel": 69
+  },
+  {
+    "minuteOfDay": 1042,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 1043,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 1044,
+    "congestionLevel": 84
+  },
+  {
+    "minuteOfDay": 1045,
+    "congestionLevel": 33
+  },
+  {
+    "minuteOfDay": 1046,
+    "congestionLevel": 94
+  },
+  {
+    "minuteOfDay": 1047,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 1048,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 1049,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 1050,
+    "congestionLevel": 89
+  },
+  {
+    "minuteOfDay": 1051,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 1052,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 1053,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 1054,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 1055,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 1056,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 1057,
+    "congestionLevel": 20
+  },
+  {
+    "minuteOfDay": 1058,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 1059,
+    "congestionLevel": 49
+  },
+  {
+    "minuteOfDay": 1060,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 1061,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 1062,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 1063,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 1064,
+    "congestionLevel": 32
+  },
+  {
+    "minuteOfDay": 1065,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 1066,
+    "congestionLevel": 24
+  },
+  {
+    "minuteOfDay": 1067,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 1068,
+    "congestionLevel": 46
+  },
+  {
+    "minuteOfDay": 1069,
+    "congestionLevel": 76
+  },
+  {
+    "minuteOfDay": 1070,
+    "congestionLevel": 17
+  },
+  {
+    "minuteOfDay": 1071,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 1072,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 1073,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 1074,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 1075,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 1076,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 1077,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 1078,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 1079,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 1080,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 1081,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 1082,
+    "congestionLevel": 93
+  },
+  {
+    "minuteOfDay": 1083,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 1084,
+    "congestionLevel": 57
+  },
+  {
+    "minuteOfDay": 1085,
+    "congestionLevel": 48
+  },
+  {
+    "minuteOfDay": 1086,
+    "congestionLevel": 18
+  },
+  {
+    "minuteOfDay": 1087,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 1088,
+    "congestionLevel": 26
+  },
+  {
+    "minuteOfDay": 1089,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 1090,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 1091,
+    "congestionLevel": 20
+  },
+  {
+    "minuteOfDay": 1092,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 1093,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 1094,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 1095,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 1096,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 1097,
+    "congestionLevel": 60
+  },
+  {
+    "minuteOfDay": 1098,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 1099,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 1100,
+    "congestionLevel": 94
+  },
+  {
+    "minuteOfDay": 1101,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 1102,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 1103,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 1104,
+    "congestionLevel": 3
+  },
+  {
+    "minuteOfDay": 1105,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 1106,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 1107,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 1108,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 1109,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 1110,
+    "congestionLevel": 86
+  },
+  {
+    "minuteOfDay": 1111,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 1112,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 1113,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 1114,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 1115,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 1116,
+    "congestionLevel": 79
+  },
+  {
+    "minuteOfDay": 1117,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 1118,
+    "congestionLevel": 69
+  },
+  {
+    "minuteOfDay": 1119,
+    "congestionLevel": 16
+  },
+  {
+    "minuteOfDay": 1120,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 1121,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 1122,
+    "congestionLevel": 12
+  },
+  {
+    "minuteOfDay": 1123,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 1124,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 1125,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 1126,
+    "congestionLevel": 62
+  },
+  {
+    "minuteOfDay": 1127,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 1128,
+    "congestionLevel": 22
+  },
+  {
+    "minuteOfDay": 1129,
+    "congestionLevel": 68
+  },
+  {
+    "minuteOfDay": 1130,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 1131,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 1132,
+    "congestionLevel": 56
+  },
+  {
+    "minuteOfDay": 1133,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 1134,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 1135,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 1136,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 1137,
+    "congestionLevel": 18
+  },
+  {
+    "minuteOfDay": 1138,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 1139,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 1140,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 1141,
+    "congestionLevel": 56
+  },
+  {
+    "minuteOfDay": 1142,
+    "congestionLevel": 72
+  },
+  {
+    "minuteOfDay": 1143,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 1144,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 1145,
+    "congestionLevel": 57
+  },
+  {
+    "minuteOfDay": 1146,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 1147,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 1148,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 1149,
+    "congestionLevel": 79
+  },
+  {
+    "minuteOfDay": 1150,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 1151,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 1152,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 1153,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 1154,
+    "congestionLevel": 22
+  },
+  {
+    "minuteOfDay": 1155,
+    "congestionLevel": 44
+  },
+  {
+    "minuteOfDay": 1156,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 1157,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 1158,
+    "congestionLevel": 21
+  },
+  {
+    "minuteOfDay": 1159,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 1160,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 1161,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 1162,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 1163,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 1164,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 1165,
+    "congestionLevel": 60
+  },
+  {
+    "minuteOfDay": 1166,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 1167,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 1168,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 1169,
+    "congestionLevel": 81
+  },
+  {
+    "minuteOfDay": 1170,
+    "congestionLevel": 20
+  },
+  {
+    "minuteOfDay": 1171,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 1172,
+    "congestionLevel": 54
+  },
+  {
+    "minuteOfDay": 1173,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 1174,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 1175,
+    "congestionLevel": 18
+  },
+  {
+    "minuteOfDay": 1176,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 1177,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 1178,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 1179,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 1180,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 1181,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 1182,
+    "congestionLevel": 48
+  },
+  {
+    "minuteOfDay": 1183,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 1184,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 1185,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 1186,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 1187,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 1188,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 1189,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 1190,
+    "congestionLevel": 44
+  },
+  {
+    "minuteOfDay": 1191,
+    "congestionLevel": 96
+  },
+  {
+    "minuteOfDay": 1192,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 1193,
+    "congestionLevel": 62
+  },
+  {
+    "minuteOfDay": 1194,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 1195,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 1196,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 1197,
+    "congestionLevel": 94
+  },
+  {
+    "minuteOfDay": 1198,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 1199,
+    "congestionLevel": 19
+  },
+  {
+    "minuteOfDay": 1200,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 1201,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 1202,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 1203,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 1204,
+    "congestionLevel": 76
+  },
+  {
+    "minuteOfDay": 1205,
+    "congestionLevel": 24
+  },
+  {
+    "minuteOfDay": 1206,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 1207,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 1208,
+    "congestionLevel": 73
+  },
+  {
+    "minuteOfDay": 1209,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 1210,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 1211,
+    "congestionLevel": 21
+  },
+  {
+    "minuteOfDay": 1212,
+    "congestionLevel": 36
+  },
+  {
+    "minuteOfDay": 1213,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 1214,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 1215,
+    "congestionLevel": 53
+  },
+  {
+    "minuteOfDay": 1216,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 1217,
+    "congestionLevel": 33
+  },
+  {
+    "minuteOfDay": 1218,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 1219,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 1220,
+    "congestionLevel": 4
+  },
+  {
+    "minuteOfDay": 1221,
+    "congestionLevel": 36
+  },
+  {
+    "minuteOfDay": 1222,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 1223,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 1224,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 1225,
+    "congestionLevel": 64
+  },
+  {
+    "minuteOfDay": 1226,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 1227,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 1228,
+    "congestionLevel": 15
+  },
+  {
+    "minuteOfDay": 1229,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 1230,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 1231,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 1232,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 1233,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 1234,
+    "congestionLevel": 73
+  },
+  {
+    "minuteOfDay": 1235,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 1236,
+    "congestionLevel": 44
+  },
+  {
+    "minuteOfDay": 1237,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 1238,
+    "congestionLevel": 19
+  },
+  {
+    "minuteOfDay": 1239,
+    "congestionLevel": 3
+  },
+  {
+    "minuteOfDay": 1240,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 1241,
+    "congestionLevel": 26
+  },
+  {
+    "minuteOfDay": 1242,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 1243,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 1244,
+    "congestionLevel": 19
+  },
+  {
+    "minuteOfDay": 1245,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 1246,
+    "congestionLevel": 3
+  },
+  {
+    "minuteOfDay": 1247,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 1248,
+    "congestionLevel": 86
+  },
+  {
+    "minuteOfDay": 1249,
+    "congestionLevel": 16
+  },
+  {
+    "minuteOfDay": 1250,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 1251,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 1252,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 1253,
+    "congestionLevel": 76
+  },
+  {
+    "minuteOfDay": 1254,
+    "congestionLevel": 7
+  },
+  {
+    "minuteOfDay": 1255,
+    "congestionLevel": 79
+  },
+  {
+    "minuteOfDay": 1256,
+    "congestionLevel": 86
+  },
+  {
+    "minuteOfDay": 1257,
+    "congestionLevel": 15
+  },
+  {
+    "minuteOfDay": 1258,
+    "congestionLevel": 14
+  },
+  {
+    "minuteOfDay": 1259,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 1260,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 1261,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 1262,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 1263,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 1264,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 1265,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 1266,
+    "congestionLevel": 13
+  },
+  {
+    "minuteOfDay": 1267,
+    "congestionLevel": 19
+  },
+  {
+    "minuteOfDay": 1268,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 1269,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 1270,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 1271,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 1272,
+    "congestionLevel": 79
+  },
+  {
+    "minuteOfDay": 1273,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 1274,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 1275,
+    "congestionLevel": 92
+  },
+  {
+    "minuteOfDay": 1276,
+    "congestionLevel": 65
+  },
+  {
+    "minuteOfDay": 1277,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 1278,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 1279,
+    "congestionLevel": 24
+  },
+  {
+    "minuteOfDay": 1280,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 1281,
+    "congestionLevel": 69
+  },
+  {
+    "minuteOfDay": 1282,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 1283,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 1284,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 1285,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 1286,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 1287,
+    "congestionLevel": 62
+  },
+  {
+    "minuteOfDay": 1288,
+    "congestionLevel": 55
+  },
+  {
+    "minuteOfDay": 1289,
+    "congestionLevel": 18
+  },
+  {
+    "minuteOfDay": 1290,
+    "congestionLevel": 37
+  },
+  {
+    "minuteOfDay": 1291,
+    "congestionLevel": 76
+  },
+  {
+    "minuteOfDay": 1292,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 1293,
+    "congestionLevel": 3
+  },
+  {
+    "minuteOfDay": 1294,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 1295,
+    "congestionLevel": 52
+  },
+  {
+    "minuteOfDay": 1296,
+    "congestionLevel": 33
+  },
+  {
+    "minuteOfDay": 1297,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 1298,
+    "congestionLevel": 6
+  },
+  {
+    "minuteOfDay": 1299,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 1300,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 1301,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 1302,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 1303,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 1304,
+    "congestionLevel": 34
+  },
+  {
+    "minuteOfDay": 1305,
+    "congestionLevel": 76
+  },
+  {
+    "minuteOfDay": 1306,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 1307,
+    "congestionLevel": 36
+  },
+  {
+    "minuteOfDay": 1308,
+    "congestionLevel": 9
+  },
+  {
+    "minuteOfDay": 1309,
+    "congestionLevel": 0
+  },
+  {
+    "minuteOfDay": 1310,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 1311,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 1312,
+    "congestionLevel": 62
+  },
+  {
+    "minuteOfDay": 1313,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 1314,
+    "congestionLevel": 79
+  },
+  {
+    "minuteOfDay": 1315,
+    "congestionLevel": 19
+  },
+  {
+    "minuteOfDay": 1316,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 1317,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 1318,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 1319,
+    "congestionLevel": 60
+  },
+  {
+    "minuteOfDay": 1320,
+    "congestionLevel": 17
+  },
+  {
+    "minuteOfDay": 1321,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 1322,
+    "congestionLevel": 37
+  },
+  {
+    "minuteOfDay": 1323,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 1324,
+    "congestionLevel": 16
+  },
+  {
+    "minuteOfDay": 1325,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 1326,
+    "congestionLevel": 66
+  },
+  {
+    "minuteOfDay": 1327,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 1328,
+    "congestionLevel": 3
+  },
+  {
+    "minuteOfDay": 1329,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 1330,
+    "congestionLevel": 32
+  },
+  {
+    "minuteOfDay": 1331,
+    "congestionLevel": 91
+  },
+  {
+    "minuteOfDay": 1332,
+    "congestionLevel": 35
+  },
+  {
+    "minuteOfDay": 1333,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 1334,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 1335,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 1336,
+    "congestionLevel": 56
+  },
+  {
+    "minuteOfDay": 1337,
+    "congestionLevel": 71
+  },
+  {
+    "minuteOfDay": 1338,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 1339,
+    "congestionLevel": 60
+  },
+  {
+    "minuteOfDay": 1340,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 1341,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 1342,
+    "congestionLevel": 54
+  },
+  {
+    "minuteOfDay": 1343,
+    "congestionLevel": 21
+  },
+  {
+    "minuteOfDay": 1344,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 1345,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 1346,
+    "congestionLevel": 95
+  },
+  {
+    "minuteOfDay": 1347,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 1348,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 1349,
+    "congestionLevel": 3
+  },
+  {
+    "minuteOfDay": 1350,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 1351,
+    "congestionLevel": 45
+  },
+  {
+    "minuteOfDay": 1352,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 1353,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 1354,
+    "congestionLevel": 71
+  },
+  {
+    "minuteOfDay": 1355,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 1356,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 1357,
+    "congestionLevel": 93
+  },
+  {
+    "minuteOfDay": 1358,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 1359,
+    "congestionLevel": 87
+  },
+  {
+    "minuteOfDay": 1360,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 1361,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 1362,
+    "congestionLevel": 12
+  },
+  {
+    "minuteOfDay": 1363,
+    "congestionLevel": 16
+  },
+  {
+    "minuteOfDay": 1364,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 1365,
+    "congestionLevel": 19
+  },
+  {
+    "minuteOfDay": 1366,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 1367,
+    "congestionLevel": 58
+  },
+  {
+    "minuteOfDay": 1368,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 1369,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 1370,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 1371,
+    "congestionLevel": 63
+  },
+  {
+    "minuteOfDay": 1372,
+    "congestionLevel": 73
+  },
+  {
+    "minuteOfDay": 1373,
+    "congestionLevel": 44
+  },
+  {
+    "minuteOfDay": 1374,
+    "congestionLevel": 12
+  },
+  {
+    "minuteOfDay": 1375,
+    "congestionLevel": 93
+  },
+  {
+    "minuteOfDay": 1376,
+    "congestionLevel": 82
+  },
+  {
+    "minuteOfDay": 1377,
+    "congestionLevel": 51
+  },
+  {
+    "minuteOfDay": 1378,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 1379,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 1380,
+    "congestionLevel": 84
+  },
+  {
+    "minuteOfDay": 1381,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 1382,
+    "congestionLevel": 86
+  },
+  {
+    "minuteOfDay": 1383,
+    "congestionLevel": 88
+  },
+  {
+    "minuteOfDay": 1384,
+    "congestionLevel": 28
+  },
+  {
+    "minuteOfDay": 1385,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 1386,
+    "congestionLevel": 39
+  },
+  {
+    "minuteOfDay": 1387,
+    "congestionLevel": 3
+  },
+  {
+    "minuteOfDay": 1388,
+    "congestionLevel": 69
+  },
+  {
+    "minuteOfDay": 1389,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 1390,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 1391,
+    "congestionLevel": 85
+  },
+  {
+    "minuteOfDay": 1392,
+    "congestionLevel": 36
+  },
+  {
+    "minuteOfDay": 1393,
+    "congestionLevel": 78
+  },
+  {
+    "minuteOfDay": 1394,
+    "congestionLevel": 42
+  },
+  {
+    "minuteOfDay": 1395,
+    "congestionLevel": 42
+  },
+  {
+    "minuteOfDay": 1396,
+    "congestionLevel": 59
+  },
+  {
+    "minuteOfDay": 1397,
+    "congestionLevel": 74
+  },
+  {
+    "minuteOfDay": 1398,
+    "congestionLevel": 72
+  },
+  {
+    "minuteOfDay": 1399,
+    "congestionLevel": 93
+  },
+  {
+    "minuteOfDay": 1400,
+    "congestionLevel": 19
+  },
+  {
+    "minuteOfDay": 1401,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 1402,
+    "congestionLevel": 23
+  },
+  {
+    "minuteOfDay": 1403,
+    "congestionLevel": 15
+  },
+  {
+    "minuteOfDay": 1404,
+    "congestionLevel": 97
+  },
+  {
+    "minuteOfDay": 1405,
+    "congestionLevel": 90
+  },
+  {
+    "minuteOfDay": 1406,
+    "congestionLevel": 75
+  },
+  {
+    "minuteOfDay": 1407,
+    "congestionLevel": 86
+  },
+  {
+    "minuteOfDay": 1408,
+    "congestionLevel": 43
+  },
+  {
+    "minuteOfDay": 1409,
+    "congestionLevel": 5
+  },
+  {
+    "minuteOfDay": 1410,
+    "congestionLevel": 89
+  },
+  {
+    "minuteOfDay": 1411,
+    "congestionLevel": 19
+  },
+  {
+    "minuteOfDay": 1412,
+    "congestionLevel": 11
+  },
+  {
+    "minuteOfDay": 1413,
+    "congestionLevel": 3
+  },
+  {
+    "minuteOfDay": 1414,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 1415,
+    "congestionLevel": 31
+  },
+  {
+    "minuteOfDay": 1416,
+    "congestionLevel": 77
+  },
+  {
+    "minuteOfDay": 1417,
+    "congestionLevel": 67
+  },
+  {
+    "minuteOfDay": 1418,
+    "congestionLevel": 12
+  },
+  {
+    "minuteOfDay": 1419,
+    "congestionLevel": 57
+  },
+  {
+    "minuteOfDay": 1420,
+    "congestionLevel": 93
+  },
+  {
+    "minuteOfDay": 1421,
+    "congestionLevel": 98
+  },
+  {
+    "minuteOfDay": 1422,
+    "congestionLevel": 80
+  },
+  {
+    "minuteOfDay": 1423,
+    "congestionLevel": 50
+  },
+  {
+    "minuteOfDay": 1424,
+    "congestionLevel": 29
+  },
+  {
+    "minuteOfDay": 1425,
+    "congestionLevel": 24
+  },
+  {
+    "minuteOfDay": 1426,
+    "congestionLevel": 27
+  },
+  {
+    "minuteOfDay": 1427,
+    "congestionLevel": 61
+  },
+  {
+    "minuteOfDay": 1428,
+    "congestionLevel": 30
+  },
+  {
+    "minuteOfDay": 1429,
+    "congestionLevel": 10
+  },
+  {
+    "minuteOfDay": 1430,
+    "congestionLevel": 1
+  },
+  {
+    "minuteOfDay": 1431,
+    "congestionLevel": 38
+  },
+  {
+    "minuteOfDay": 1432,
+    "congestionLevel": 36
+  },
+  {
+    "minuteOfDay": 1433,
+    "congestionLevel": 83
+  },
+  {
+    "minuteOfDay": 1434,
+    "congestionLevel": 41
+  },
+  {
+    "minuteOfDay": 1435,
+    "congestionLevel": 99
+  },
+  {
+    "minuteOfDay": 1436,
+    "congestionLevel": 25
+  },
+  {
+    "minuteOfDay": 1437,
+    "congestionLevel": 40
+  },
+  {
+    "minuteOfDay": 1438,
+    "congestionLevel": 8
+  },
+  {
+    "minuteOfDay": 1439,
+    "congestionLevel": 95
+  }
+]
