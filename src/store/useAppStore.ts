@@ -2,12 +2,16 @@ import { create } from 'zustand';
 import { AIMode } from '../types';
 
 interface AppState {
+  /** The currently selected metropolitan area (e.g., Indore, Bhopal, Pune) */
   city: string;
   setCity: (city: string) => void;
+  /** Current AI operational mode ('manual' | 'supervised' | 'autonomous') */
   aiMode: AIMode;
   setAiMode: (mode: AIMode) => void;
+  /** Active emergency vehicle corridor tracking ID, if any */
   activeCorridorId: string | null;
   setActiveCorridorId: (id: string | null) => void;
+  /** Sidebar display state for premium compact screens */
   sidebarCollapsed: boolean;
   setSidebarCollapsed: (collapsed: boolean) => void;
 }
