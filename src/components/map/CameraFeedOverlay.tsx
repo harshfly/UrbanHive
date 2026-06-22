@@ -7,7 +7,7 @@ interface CameraFeedOverlayProps {
 
 export const CameraFeedOverlay: React.FC<CameraFeedOverlayProps> = ({ onClose }) => {
   return (
-    <div className="absolute top-4 left-4 z-[1000] w-52 bg-bg-surface border border-border-subtle rounded-2xl shadow-lg overflow-hidden transition-all duration-300">
+    <div className="w-52 bg-bg-surface border border-border-subtle rounded-2xl shadow-lg overflow-hidden transition-all duration-300">
       {/* Camera visual – styled illustration */}
       <div className="h-28 bg-gradient-to-br from-bg-surface-alt to-border-subtle relative flex items-center justify-center">
         {/* Simplified street scene illustration */}
@@ -23,8 +23,11 @@ export const CameraFeedOverlay: React.FC<CameraFeedOverlayProps> = ({ onClose })
         {/* Close Button */}
         {onClose && (
           <button 
-            onClick={onClose}
-            className="absolute top-2 left-2 p-1.5 rounded-full bg-black/40 hover:bg-black/60 text-white transition-colors cursor-pointer"
+            onClick={(e) => {
+              e.stopPropagation(); // prevent drag trigger
+              onClose();
+            }}
+            className="absolute top-2 left-2 p-1.5 rounded-full bg-black/40 hover:bg-black/60 text-white transition-colors cursor-pointer z-10"
             title="Hide Camera Feed"
           >
             <X size={12} />

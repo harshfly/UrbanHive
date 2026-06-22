@@ -1,5 +1,6 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useEffect, useState, useMemo, useRef } from 'react';
 import { MapContainer, TileLayer, Polyline, Polygon, Marker, Tooltip, useMap } from 'react-leaflet';
+import { motion } from 'framer-motion';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import { Junction } from '../../types';
@@ -158,6 +159,9 @@ export const LiveCityMap: React.FC<LiveCityMapProps> = ({
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   
+  // Map container ref for drag boundaries
+  const mapContainerRef = useRef<HTMLDivElement>(null);
+
   // Layer visibility states
   const [showBoundary, setShowBoundary] = useState(true);
   const [showBRTS, setShowBRTS] = useState(true);
@@ -213,7 +217,7 @@ export const LiveCityMap: React.FC<LiveCityMapProps> = ({
   }
 
   return (
-    <div className={`relative rounded-3xl overflow-hidden border border-border-subtle shadow-md ${className || ''}`} style={{ minHeight: 450 }}>
+    <div ref={mapContainerRef} className={`relative rounded-3xl overflow-hidden border border-border-subtle shadow-md ${className || ''}`} style={{ minHeight: 450 }}>
       <MapContainer
         center={finalCenter}
         zoom={finalZoom}
@@ -337,12 +341,16 @@ export const LiveCityMap: React.FC<LiveCityMapProps> = ({
       </MapContainer>
 
       {/* Floating Layer Visibility Widgets */}
-      <div 
-        className={`absolute z-[1000] flex flex-col gap-2 bg-bg-surface/90 backdrop-blur-md border border-border-subtle rounded-2xl p-3.5 shadow-lg max-w-[180px] transition-all duration-300 left-4 ${
+      <motion.div 
+        drag
+        dragConstraints={mapContainerRef}
+        dragElastic={0.02}
+        dragMomentum={false}
+        className={`absolute z-[1000] flex flex-col gap-2 bg-bg-surface/90 backdrop-blur-md border border-border-subtle rounded-2xl p-3.5 shadow-lg max-w-[180px] cursor-grab active:cursor-grabbing left-4 ${
           showCamera && cameraFeedOpen ? 'top-[185px]' : 'top-4'
         }`}
       >
-        <span className="text-[9px] font-bold text-text-tertiary uppercase tracking-widest flex items-center gap-1.5 mb-1.5">
+        <span className="text-[9px] font-bold text-text-tertiary uppercase tracking-widest flex items-center gap-1.5 mb-1.5 pointer-events-none select-none">
           <Layers size={10} className="text-accent-primary" /> Map Layers
         </span>
         <label className="flex items-center justify-between gap-3 text-[10px] font-semibold text-text-secondary cursor-pointer hover:text-text-primary transition-colors">
@@ -381,12 +389,31 @@ export const LiveCityMap: React.FC<LiveCityMapProps> = ({
             className="rounded text-accent-primary focus:ring-accent-primary w-3 h-3 cursor-pointer"
           />
         </label>
-      </div>
+      </motion.div>
 
       {showCamera && cameraFeedOpen && (
-        <CameraFeedOverlay onClose={() => setCameraFeedOpen(false)} />
+        <motion.div
+          drag
+          dragConstraints={mapContainerRef}
+          dragElastic={0.02}
+          dragMomentum={false}
+          className="absolute top-4 left-4 z-[1000] cursor-grab active:cursor-grabbing"
+        >
+          <CameraFeedOverlay onClose={() => setCameraFeedOpen(false)} />
+        </motion.div>
       )}
-      {showLegend && <MapLegend />}
+      
+      {showLegend && (
+        <motion.div
+          drag
+          dragConstraints={mapContainerRef}
+          dragElastic={0.02}
+          dragMomentum={false}
+          className="absolute bottom-4 left-4 z-[1000] cursor-grab active:cursor-grabbing"
+        >
+          <MapLegend />
+        </motion.div>
+      )}
 
       {showSearch && (
         <div className="absolute top-4 right-4 z-[1000]">

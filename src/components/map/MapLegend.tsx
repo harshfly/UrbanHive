@@ -1,9 +1,9 @@
 import React from 'react';
-import { Compass, ShieldCheck, Activity } from 'lucide-react';
+import { ShieldCheck, Activity } from 'lucide-react';
 
 export const MapLegend: React.FC = () => {
   return (
-    <div className="absolute bottom-4 left-4 z-[1000] bg-bg-surface/90 backdrop-blur-md border border-border-subtle rounded-2xl p-4 shadow-lg flex flex-col gap-3 min-w-[160px]">
+    <div className="bg-bg-surface/90 backdrop-blur-md border border-border-subtle rounded-2xl p-4 shadow-lg flex flex-col gap-3 min-w-[160px]">
       <div>
         <h4 className="text-[9px] font-bold uppercase tracking-widest text-text-tertiary flex items-center gap-1.5 mb-1">
           <Activity size={10} className="text-accent-primary" /> Traffic Density
