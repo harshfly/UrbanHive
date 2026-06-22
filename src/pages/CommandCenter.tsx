@@ -145,64 +145,53 @@ const CommandCenter: React.FC = () => {
         </div>
       </div>
 
-      {/* Middle Row: Quick Stats (Closures, Incidents, Delays) */}
+      {/* Global Timeline Master Scrubber */}
+      <div className="w-full">
+        <TimelineScrubber className="!rounded-3xl" />
+      </div>
+
+      {/* Middle Row: Quick Stats */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
         <StatCard label="Road Closures" value="9" icon={<Cone size={20} />} tint="amber" to="/traffic" />
         <StatCard label="Incidents" value="4" icon={<ShieldAlert size={20} />} tint="red" to="/emergency-corridor" />
         <StatCard label="Avg Delay" value="11m" icon={<Clock size={20} />} tint="primary" />
       </div>
 
-      {/* Bottom Row: Charts & Sparkline Trends */}
-      <div className="grid grid-cols-1 xl:grid-cols-12 gap-6">
-        {/* Charts Side */}
-        <div className="xl:col-span-8 flex flex-col gap-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-bg-surface border border-border-subtle rounded-3xl p-5 shadow-sm">
-              <TrafficBarChart />
-            </div>
-            <div className="bg-bg-surface border border-border-subtle rounded-3xl p-5 shadow-sm">
-              <VehicleAreaChart />
-            </div>
-          </div>
+      {/* Primary Analytics & Simulation Control Grid */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="bg-bg-surface border border-border-subtle rounded-3xl p-5 shadow-sm">
+          <TrafficBarChart />
         </div>
-
-        {/* Sparklines Side */}
-        <div className="xl:col-span-4 flex flex-col gap-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-1 gap-4">
-            <SparklineCard
-              title="Vijay Nagar + AB Road"
-              data={junctionSparkline}
-              linkTo="/traffic/j-1"
-              valueType="percent"
-              subtitle="Congestion Level"
-              color="#FF3B30"
-            />
-            <SparklineCard
-              title="City Overview"
-              data={citySparkline}
-              color="#0071E3"
-              valueType="percent"
-              subtitle="Overall Mobility Index"
-            />
-            <SparklineCard
-              title="Monthly Trend"
-              data={monthlyTrend}
-              color="#34C759"
-              valueType="percent"
-              subtitle="Efficiency Growth"
-            />
-          </div>
+        <div className="bg-bg-surface border border-border-subtle rounded-3xl p-5 shadow-sm">
+          <VehicleAreaChart />
         </div>
+        <WeatherSandbox />
       </div>
 
-      {/* Environment Sandbox & Timeline */}
-      <div className="grid grid-cols-1 xl:grid-cols-12 gap-6">
-        <div className="xl:col-span-8">
-          <TimelineScrubber />
-        </div>
-        <div className="xl:col-span-4">
-          <WeatherSandbox />
-        </div>
+      {/* Performance Metrics & Trends */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <SparklineCard
+          title="Vijay Nagar + AB Road"
+          data={junctionSparkline}
+          linkTo="/traffic/j-1"
+          valueType="percent"
+          subtitle="Congestion Level"
+          color="#FF3B30"
+        />
+        <SparklineCard
+          title="City Overview"
+          data={citySparkline}
+          color="#0071E3"
+          valueType="percent"
+          subtitle="Overall Mobility Index"
+        />
+        <SparklineCard
+          title="Monthly Trend"
+          data={monthlyTrend}
+          color="#34C759"
+          valueType="percent"
+          subtitle="Efficiency Growth"
+        />
       </div>
     </motion.div>
   );
