@@ -6,6 +6,7 @@ import { Camera, Search, Play, Check, Cpu, Eye, EyeOff, Radio } from 'lucide-rea
 import { motion, AnimatePresence } from 'framer-motion';
 import { showToast } from '../components/ui/Toast';
 import { useAppStore } from '../store/useAppStore';
+import { CameraHUDOverlay, OverlayModeSelector, OverlayMode } from '../components/cameras/CameraHUDOverlay';
 
 interface CameraDevice {
   id: string;
@@ -350,6 +351,7 @@ const Cameras: React.FC = () => {
   const [statusFilter, setStatusFilter] = useState<'all' | 'active' | 'warning' | 'inactive'>('all');
   const [aiOverlayActive, setAiOverlayActive] = useState(true);
   const [mapCenter, setMapCenter] = useState<[number, number]>([22.7533, 75.8937]);
+  const [overlayMode, setOverlayMode] = useState<OverlayMode>('detection');
 
   useEffect(() => {
     const filtered = initialCameras.filter((c) => c.city === activeCity);
@@ -443,6 +445,7 @@ const Cameras: React.FC = () => {
         ]}
         actions={
           <div className="flex items-center gap-3">
+            <OverlayModeSelector mode={overlayMode} onChange={setOverlayMode} />
             <button
               onClick={() => setAiOverlayActive(!aiOverlayActive)}
               className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-semibold border transition-all duration-300 ${
@@ -515,7 +518,14 @@ const Cameras: React.FC = () => {
                   >
                     {/* Simulated live video */}
                     <div className="aspect-[16/9] w-full relative">
-                      <LiveStreamVisualizer id={cam.id} active={cam.status !== 'inactive'} aiOverlay={aiOverlayActive} />
+                      <LiveStreamVisualizer id={cam.id} active={cam.status !== 'inactive'} aiOverlay={aiOverlayActive && overlayMode === 'detection'} />
+                      <CameraHUDOverlay
+                        mode={overlayMode}
+                        isActive={aiOverlayActive && cam.status !== 'inactive' && overlayMode !== 'detection'}
+                        vehicleCount={cam.vehiclesCount}
+                        pedestrianCount={cam.pedestriansCount}
+                        avgSpeed={cam.avgSpeed}
+                      />
                     </div>
 
                     {/* Camera Info */}
