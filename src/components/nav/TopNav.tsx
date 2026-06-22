@@ -2,11 +2,16 @@ import React from 'react';
 import { CitySelector } from './CitySelector';
 import { AIModeToggle } from './AIModeToggle';
 import { AlertBell } from './AlertBell';
-import { User, Activity } from 'lucide-react';
+import { User, Activity, Search, Command } from 'lucide-react';
 import { useAppStore } from '../../store/useAppStore';
 
 export const TopNav: React.FC = () => {
   const { city } = useAppStore();
+
+  const handleSpotlight = () => {
+    // Dispatch Cmd+K keyboard event to trigger Spotlight
+    document.dispatchEvent(new KeyboardEvent('keydown', { key: 'k', ctrlKey: true, bubbles: true }));
+  };
 
   return (
     <header className="h-16 bg-bg-surface border-b border-border-subtle flex items-center justify-between px-6 z-20 shrink-0 shadow-[0_1px_2px_rgba(16,20,36,0.02)]">
@@ -21,6 +26,17 @@ export const TopNav: React.FC = () => {
 
       {/* Right controls */}
       <div className="flex items-center gap-4">
+        {/* Spotlight trigger */}
+        <button
+          onClick={handleSpotlight}
+          className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl bg-bg-canvas border border-border-subtle text-text-secondary hover:text-text-primary hover:border-border-strong transition-all duration-200 cursor-pointer"
+        >
+          <Search size={13} />
+          <span className="text-xs font-medium">Search...</span>
+          <kbd className="flex items-center gap-0.5 px-1.5 py-0.5 rounded-md bg-bg-surface border border-border-subtle text-[9px] font-mono font-bold text-text-tertiary ml-2">
+            <Command size={9} /> K
+          </kbd>
+        </button>
         <CitySelector />
         <AIModeToggle />
         <AlertBell />
@@ -31,3 +47,4 @@ export const TopNav: React.FC = () => {
     </header>
   );
 };
+

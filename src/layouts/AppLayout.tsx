@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import { TopNav } from '../components/nav/TopNav';
 import { Sidebar } from '../components/nav/Sidebar';
+import { SpotlightCommandBar } from '../components/spotlight/SpotlightCommandBar';
 
 export const AppLayout: React.FC = () => {
   return (
@@ -13,6 +14,8 @@ export const AppLayout: React.FC = () => {
           <Outlet />
         </main>
       </div>
+      {/* Global Spotlight (Cmd+K) */}
+      <SpotlightCommandBar />
     </div>
   );
 };
