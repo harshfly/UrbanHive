@@ -9,8 +9,8 @@ import 'leaflet/dist/leaflet.css';
 import { useAppStore } from '../store/useAppStore';
 import { showToast } from '../components/ui/Toast';
 import { motion } from 'framer-motion';
-import { PieChart, Pie, Cell, RadialBarChart, RadialBar, ResponsiveContainer, Tooltip as RechartsTooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
-import { Lightbulb, BatteryCharging, ShieldAlert } from 'lucide-react';
+import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip as RechartsTooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
+import { BatteryCharging, ShieldAlert } from 'lucide-react';
 
 const cityConfig: Record<string, { center: [number, number]; zoom: number }> = {
   'Indore (Vijay Nagar)': { center: [22.7250, 75.8720], zoom: 13 },
@@ -34,11 +34,19 @@ const EvCharging: React.FC = () => {
   const [showRebalance, setShowRebalance] = useState(true);
 
   useEffect(() => {
-    setLoading(true);
-    fetchChargers().then((data) => {
-      setChargers(data);
-      setLoading(false);
+    Promise.resolve().then(() => {
+      setLoading(true);
     });
+    let active = true;
+    fetchChargers().then((data) => {
+      if (active) {
+        setChargers(data);
+        setLoading(false);
+      }
+    });
+    return () => {
+      active = false;
+    };
   }, [activeCity]);
 
   const getColor = (load: number) => {

@@ -3,10 +3,10 @@ import { PageHeader } from '../layouts/PageHeader';
 import { Tabs } from '../components/ui/Tabs';
 import { Button } from '../components/ui/Button';
 import { Badge } from '../components/ui/Badge';
-import { Download, Compass, ShieldAlert, BatteryCharging, AlertTriangle, Lightbulb } from 'lucide-react';
+import { Download, Compass, ShieldAlert, BatteryCharging, AlertTriangle } from 'lucide-react';
 import { showToast, dismissToast } from '../components/ui/Toast';
 import {
-  PieChart, Pie, Cell, RadialBarChart, RadialBar, ResponsiveContainer, Tooltip,
+  PieChart, Pie, Cell, ResponsiveContainer, Tooltip,
   BarChart, Bar, XAxis, YAxis, CartesianGrid, AreaChart, Area,
 } from 'recharts';
 import { motion } from 'framer-motion';
@@ -37,20 +37,7 @@ const getInsights = (range: string) => {
   }
 };
 
-const CustomTooltip = ({ active, payload }: any) => {
-  if (active && payload && payload.length) {
-    const data = payload[0].payload;
-    return (
-      <div className="bg-bg-surface border border-border-subtle rounded-xl px-3 py-2 shadow-md flex flex-col gap-1">
-        <p className="text-xs font-bold text-text-primary">{data.name}</p>
-        <p className="text-xs font-mono text-text-secondary">
-          Index: <strong className="font-bold text-text-primary">{data.value}%</strong>
-        </p>
-      </div>
-    );
-  }
-  return null;
-};
+
 
 const Reports: React.FC = () => {
   const [range, setRange] = useState('30 days');
@@ -79,12 +66,7 @@ const Reports: React.FC = () => {
     { name: 'Idle / Reserve', value: 5, percent: 5, fill: '#AEAEB2' },
   ];
 
-  const responseTimeData = [
-    { name: 'Under 5 Mins', value: 72, fill: '#34C759' },
-    { name: '5 - 10 Mins', value: 18, fill: '#0071E3' },
-    { name: '10 - 15 Mins', value: 8, fill: '#FF9500' },
-    { name: 'Over 15 Mins', value: 2, fill: '#FF3B30' },
-  ];
+
 
   const incidentData = [
     { name: 'Vehicle Breakdown', value: 45, fill: '#FF9500' },

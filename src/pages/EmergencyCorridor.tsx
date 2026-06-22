@@ -6,9 +6,9 @@ import { Badge } from '../components/ui/Badge';
 import { LiveCityMap } from '../components/map/LiveCityMap';
 import { CorridorRouteLayer } from '../components/map/CorridorRouteLayer';
 import { showToast } from '../components/ui/Toast';
-import { Siren, MapPin, Flame, ShieldCheck, Lightbulb, Compass, ShieldAlert } from 'lucide-react';
+import { Siren, MapPin, Flame, ShieldCheck, Compass, ShieldAlert } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { PieChart, Pie, Cell, RadialBarChart, RadialBar, ResponsiveContainer, Tooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
+import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, BarChart, Bar, XAxis, YAxis } from 'recharts';
 
 const corridorPath: [number, number][] = [
   [22.7533, 75.8937],
@@ -22,16 +22,15 @@ const EmergencyCorridor: React.FC = () => {
   const [vehicleType, setVehicleType] = useState('ambulance');
   const [destination, setDestination] = useState('MY Hospital');
   const [eta, setEta] = useState(360); // 6 minutes in seconds
-  const timerRef = useRef<any>(null);
+  const timerRef = useRef<number | undefined>(undefined);
 
   useEffect(() => {
-    if (isActive && eta > 0) {
-      timerRef.current = setInterval(() => {
+    if (isActive) {
+      timerRef.current = window.setInterval(() => {
         setEta((prev) => {
           if (prev <= 1) {
-            clearInterval(timerRef.current);
+            if (timerRef.current !== undefined) clearInterval(timerRef.current);
             setIsActive(false);
-            setEta(360);
             showToast('Vehicle arrived — corridor closed, signals restored', 'success');
             return 360;
           }
@@ -39,7 +38,9 @@ const EmergencyCorridor: React.FC = () => {
         });
       }, 1000);
     }
-    return () => clearInterval(timerRef.current);
+    return () => {
+      if (timerRef.current !== undefined) clearInterval(timerRef.current);
+    };
   }, [isActive]);
 
   const handleActivate = () => {
@@ -60,11 +61,7 @@ const EmergencyCorridor: React.FC = () => {
     return `${m}:${sec.toString().padStart(2, '0')}`;
   };
 
-  const vehicleIcons: Record<string, React.ReactNode> = {
-    ambulance: <Siren size={18} className="text-accent-red" />,
-    fire: <Flame size={18} className="text-accent-amber" />,
-    police: <ShieldCheck size={18} className="text-accent-blue" />,
-  };
+
 
   return (
     <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3 }}>

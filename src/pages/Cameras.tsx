@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { PageHeader } from '../layouts/PageHeader';
 import { MapContainer, TileLayer, Marker, Tooltip, useMap } from 'react-leaflet';
 import L from 'leaflet';
-import { Camera, Search, Filter, Play, Check, ShieldAlert, Cpu, Eye, EyeOff, Radio } from 'lucide-react';
+import { Camera, Search, Play, Check, Cpu, Eye, EyeOff, Radio } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { showToast } from '../components/ui/Toast';
 import { useAppStore } from '../store/useAppStore';
@@ -353,10 +353,12 @@ const Cameras: React.FC = () => {
 
   useEffect(() => {
     const filtered = initialCameras.filter((c) => c.city === activeCity);
-    setCameras(filtered);
-    setSelectedCam(null);
     const activeConfig = cityConfig[activeCity] || cityConfig['Indore (Vijay Nagar)'];
-    setMapCenter(activeConfig.center);
+    Promise.resolve().then(() => {
+      setCameras(filtered);
+      setSelectedCam(null);
+      setMapCenter(activeConfig.center);
+    });
   }, [activeCity]);
 
   // Leaflet custom camera icon generator

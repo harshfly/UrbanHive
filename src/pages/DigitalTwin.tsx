@@ -7,9 +7,9 @@ import { PageHeader } from '../layouts/PageHeader';
 import { runSimulation } from '../api/simulation.api';
 import { fetchJunctions } from '../api/junctions.api';
 import { Junction } from '../types';
-import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, RadialBarChart, RadialBar, PieChart, Pie, Cell } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, RadialBarChart, RadialBar } from 'recharts';
 import { motion } from 'framer-motion';
-import { Cpu, Zap, ArrowRight, Play } from 'lucide-react';
+import { Cpu, Zap } from 'lucide-react';
 
 const scenarios = [
   { id: 'add-vehicles', label: '+ Add 200 vehicles (north zone)' },
@@ -64,15 +64,17 @@ const DigitalTwin: React.FC = () => {
     setSimResult(null);
   };
 
-  // Generate chart data from simulation result
+  // Generate chart data from simulation result using a deterministic function
   const simChartData = useMemo(() => {
     if (!simResult) return [];
     return Array.from({ length: 12 }, (_, i) => {
       const t = i * 5;
+      const fluctuationWithout = Math.sin(i * 1.5) * 2.5;
+      const fluctuationWith = Math.cos(i * 1.5) * 1.5;
       return {
         time: `${t}m`,
-        without: simResult.withoutAi + Math.random() * 5 - 2,
-        with: simResult.withAi + Math.random() * 3 - 1,
+        without: Math.max(0, Math.round((simResult.withoutAi + fluctuationWithout) * 10) / 10),
+        with: Math.max(0, Math.round((simResult.withAi + fluctuationWith) * 10) / 10),
       };
     });
   }, [simResult]);

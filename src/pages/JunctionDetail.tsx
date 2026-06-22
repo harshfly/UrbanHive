@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { PageHeader } from '../layouts/PageHeader';
 import { Badge } from '../components/ui/Badge';
 import { Toggle } from '../components/ui/Toggle';
@@ -8,9 +8,9 @@ import { Modal } from '../components/ui/Modal';
 import { fetchJunctionById } from '../api/junctions.api';
 import { Junction } from '../types';
 import { useAppStore } from '../store/useAppStore';
-import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, PieChart, Pie, Cell, RadialBarChart, RadialBar, BarChart, Bar } from 'recharts';
+import { XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid, PieChart, Pie, Cell, BarChart, Bar } from 'recharts';
 import { motion } from 'framer-motion';
-import { Lightbulb, ShieldAlert, ArrowDown } from 'lucide-react';
+import { Lightbulb, ShieldAlert } from 'lucide-react';
 
 const statusMap: Record<string, 'green' | 'amber' | 'red'> = {
   green: 'green',

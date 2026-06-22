@@ -9,8 +9,8 @@ import { MapContainer, TileLayer, Polygon, Tooltip, useMap } from 'react-leaflet
 import 'leaflet/dist/leaflet.css';
 import { showToast } from '../components/ui/Toast';
 import { motion } from 'framer-motion';
-import { PieChart, Pie, Cell, RadialBarChart, RadialBar, ResponsiveContainer, Tooltip as RechartsTooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
-import { Lightbulb, Compass, ShieldAlert } from 'lucide-react';
+import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip as RechartsTooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
+import { Compass, ShieldAlert } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
 
 const cityConfig: Record<string, { center: [number, number]; zoom: number }> = {
@@ -36,12 +36,20 @@ const Parking: React.FC = () => {
   const activeCity = useAppStore((s) => s.city);
 
   useEffect(() => {
-    setLoading(true);
-    fetchParkingZones().then((data) => {
-      setZones(data);
-      setLoading(false);
-      setSelectedZone(null); // reset selection when city changes
+    Promise.resolve().then(() => {
+      setLoading(true);
     });
+    let active = true;
+    fetchParkingZones().then((data) => {
+      if (active) {
+        setZones(data);
+        setLoading(false);
+        setSelectedZone(null); // reset selection when city changes
+      }
+    });
+    return () => {
+      active = false;
+    };
   }, [activeCity]);
 
   const getColor = (zone: ParkingZone) => {

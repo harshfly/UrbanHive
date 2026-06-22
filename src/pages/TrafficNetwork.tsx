@@ -7,8 +7,8 @@ import { Select } from '../components/ui/Select';
 import { fetchJunctions } from '../api/junctions.api';
 import { Junction } from '../types';
 import { motion } from 'framer-motion';
-import { PieChart, Pie, Cell, RadialBarChart, RadialBar, ResponsiveContainer, Tooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
-import { Lightbulb, Compass, ShieldAlert } from 'lucide-react';
+import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
+import { Compass, ShieldAlert } from 'lucide-react';
 
 const TrafficNetwork: React.FC = () => {
   const [junctions, setJunctions] = useState<Junction[]>([]);
