@@ -45,6 +45,57 @@ const monthlyTrend = [
   { label: 'Jul', value: 72 }, { label: 'Aug', value: 80 },
 ];
 
+// KPI chart datasets
+const travelTimeData = [
+  { time: '08:00 AM', val: 24 },
+  { time: '10:00 AM', val: 20 },
+  { time: '12:00 PM', val: 18 },
+  { time: '02:00 PM', val: 15 },
+  { time: '04:00 PM', val: 17 },
+  { time: '06:00 PM', val: 22 },
+  { time: '08:00 PM', val: 15 },
+];
+
+const activeVehiclesData = [
+  { time: '08:00 AM', val: 3200 },
+  { time: '10:00 AM', val: 4100 },
+  { time: '12:00 PM', val: 4400 },
+  { time: '02:00 PM', val: 4812 },
+  { time: '04:00 PM', val: 4600 },
+  { time: '06:00 PM', val: 5100 },
+  { time: '08:00 PM', val: 4200 },
+];
+
+const evChargerLoadData = [
+  { time: '08:00 AM', val: 45 },
+  { time: '10:00 AM', val: 52 },
+  { time: '12:00 PM', val: 60 },
+  { time: '02:00 PM', val: 68 },
+  { time: '04:00 PM', val: 63 },
+  { time: '06:00 PM', val: 72 },
+  { time: '08:00 PM', val: 55 },
+];
+
+const parkingOccupancyData = [
+  { time: '08:00 AM', val: 65 },
+  { time: '10:00 AM', val: 75 },
+  { time: '12:00 PM', val: 80 },
+  { time: '02:00 PM', val: 82 },
+  { time: '04:00 PM', val: 84 },
+  { time: '06:00 PM', val: 85 },
+  { time: '08:00 PM', val: 70 },
+];
+
+const co2SavedData = [
+  { time: '08:00 AM', val: 0.4 },
+  { time: '10:00 AM', val: 0.7 },
+  { time: '12:00 PM', val: 0.9 },
+  { time: '02:00 PM', val: 1.2 },
+  { time: '04:00 PM', val: 1.3 },
+  { time: '06:00 PM', val: 1.6 },
+  { time: '08:00 PM', val: 1.8 },
+];
+
 const CommandCenter: React.FC = () => {
   const alerts = useAlertStore((s) => s.alerts);
 
@@ -57,11 +108,11 @@ const CommandCenter: React.FC = () => {
     >
       {/* KPI Strip */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-        <KpiCard label="Avg Travel Time" value="15 min" delta="-40% vs baseline" deltaType="positive" icon={<TrendingDown size={20} />} iconColor="text-accent-primary" />
-        <KpiCard label="Active Vehicles" value="4,812" icon={<Activity size={20} />} iconColor="text-accent-blue" />
-        <KpiCard label="EV Charger Load" value="68%" icon={<Zap size={20} />} iconColor="text-accent-primary" />
-        <KpiCard label="Parking Occupancy" value="82%" delta="Near capacity" deltaType="negative" icon={<ParkingCircle size={20} />} iconColor="text-accent-amber" />
-        <KpiCard label="CO₂ Saved Today" value="1.2t" icon={<Leaf size={20} />} iconColor="text-accent-primary" />
+        <KpiCard label="Avg Travel Time" value="15 min" delta="-40% vs baseline" deltaType="positive" icon={<TrendingDown size={20} />} iconColor="text-accent-primary" data={travelTimeData} valSuffix=" min" />
+        <KpiCard label="Active Vehicles" value="4,812" icon={<Activity size={20} />} iconColor="text-accent-blue" data={activeVehiclesData} valSuffix=" vehicles" />
+        <KpiCard label="EV Charger Load" value="68%" icon={<Zap size={20} />} iconColor="text-accent-primary" data={evChargerLoadData} valSuffix="%" />
+        <KpiCard label="Parking Occupancy" value="82%" delta="Near capacity" deltaType="negative" icon={<ParkingCircle size={20} />} iconColor="text-accent-amber" data={parkingOccupancyData} valSuffix="%" />
+        <KpiCard label="CO₂ Saved Today" value="1.2t" icon={<Leaf size={20} />} iconColor="text-accent-primary" data={co2SavedData} valSuffix="t" />
       </div>
 
       {/* Main Row: Live Map & Alert Feed */}
