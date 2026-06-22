@@ -1,482 +1,268 @@
 [
   {
-    "id": "j-1",
-    "name": "Vijay Nagar + AB Road",
-    "lat": 22.7533,
-    "lng": 75.8937,
-    "status": "amber",
-    "avgWaitSeconds": 45,
-    "aiOverridesToday": 12,
-    "zone": "North Zone",
+    "id": "j-1", "name": "Vijay Nagar Square", "lat": 22.7533, "lng": 75.8937,
+    "status": "amber", "avgWaitSeconds": 45, "aiOverridesToday": 12, "zone": "North Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 40 },
-      { "time": "08:30", "congestion": 55 },
-      { "time": "09:00", "congestion": 80 },
-      { "time": "09:30", "congestion": 65 },
-      { "time": "10:00", "congestion": 50 }
-    ],
-    "currentTiming": { "ns": 45, "ew": 30 },
-    "recommendedTiming": { "ns": 38, "ew": 37 }
+    "congestionHistory": [{"time":"08:00","congestion":40},{"time":"08:30","congestion":55},{"time":"09:00","congestion":80},{"time":"09:30","congestion":65},{"time":"10:00","congestion":50}],
+    "currentTiming": {"ns":45,"ew":30}, "recommendedTiming": {"ns":38,"ew":37}
   },
   {
-    "id": "j-2",
-    "name": "Palasia Square",
-    "lat": 22.7244,
-    "lng": 75.8839,
-    "status": "red",
-    "avgWaitSeconds": 120,
-    "aiOverridesToday": 3,
-    "zone": "Central Zone",
+    "id": "j-2", "name": "Palasia Square", "lat": 22.7244, "lng": 75.8839,
+    "status": "red", "avgWaitSeconds": 120, "aiOverridesToday": 3, "zone": "Central Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 60 },
-      { "time": "08:30", "congestion": 85 },
-      { "time": "09:00", "congestion": 95 },
-      { "time": "09:30", "congestion": 90 },
-      { "time": "10:00", "congestion": 88 }
-    ],
-    "currentTiming": { "ns": 60, "ew": 60 },
-    "recommendedTiming": { "ns": 45, "ew": 75 }
+    "congestionHistory": [{"time":"08:00","congestion":60},{"time":"08:30","congestion":85},{"time":"09:00","congestion":95},{"time":"09:30","congestion":90},{"time":"10:00","congestion":88}],
+    "currentTiming": {"ns":60,"ew":60}, "recommendedTiming": {"ns":45,"ew":75}
   },
   {
-    "id": "j-3",
-    "name": "Bhawarkua Square",
-    "lat": 22.6916,
-    "lng": 75.8672,
-    "status": "green",
-    "avgWaitSeconds": 15,
-    "aiOverridesToday": 0,
-    "zone": "South Zone",
+    "id": "j-3", "name": "Bhawarkua Square", "lat": 22.6916, "lng": 75.8672,
+    "status": "green", "avgWaitSeconds": 15, "aiOverridesToday": 0, "zone": "South Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 20 },
-      { "time": "08:30", "congestion": 30 },
-      { "time": "09:00", "congestion": 40 },
-      { "time": "09:30", "congestion": 35 },
-      { "time": "10:00", "congestion": 25 }
-    ],
-    "currentTiming": { "ns": 30, "ew": 30 },
-    "recommendedTiming": { "ns": 30, "ew": 30 }
+    "congestionHistory": [{"time":"08:00","congestion":20},{"time":"08:30","congestion":30},{"time":"09:00","congestion":40},{"time":"09:30","congestion":35},{"time":"10:00","congestion":25}],
+    "currentTiming": {"ns":30,"ew":30}, "recommendedTiming": {"ns":30,"ew":30}
   },
   {
-    "id": "j-4",
-    "name": "LIG Square",
-    "lat": 22.7350,
-    "lng": 75.8890,
-    "status": "green",
-    "avgWaitSeconds": 25,
-    "aiOverridesToday": 4,
-    "zone": "North Zone",
+    "id": "j-4", "name": "LIG Square", "lat": 22.7350, "lng": 75.8890,
+    "status": "green", "avgWaitSeconds": 25, "aiOverridesToday": 4, "zone": "North Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 30 },
-      { "time": "08:30", "congestion": 45 },
-      { "time": "09:00", "congestion": 50 },
-      { "time": "09:30", "congestion": 40 },
-      { "time": "10:00", "congestion": 35 }
-    ],
-    "currentTiming": { "ns": 40, "ew": 35 },
-    "recommendedTiming": { "ns": 38, "ew": 37 }
+    "congestionHistory": [{"time":"08:00","congestion":30},{"time":"08:30","congestion":45},{"time":"09:00","congestion":50},{"time":"09:30","congestion":40},{"time":"10:00","congestion":35}],
+    "currentTiming": {"ns":40,"ew":35}, "recommendedTiming": {"ns":38,"ew":37}
   },
   {
-    "id": "j-5",
-    "name": "Regal Square",
-    "lat": 22.7196,
-    "lng": 75.8577,
-    "status": "amber",
-    "avgWaitSeconds": 65,
-    "aiOverridesToday": 8,
-    "zone": "Central Zone",
+    "id": "j-5", "name": "Regal Square", "lat": 22.7196, "lng": 75.8577,
+    "status": "amber", "avgWaitSeconds": 65, "aiOverridesToday": 8, "zone": "Central Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 50 },
-      { "time": "08:30", "congestion": 70 },
-      { "time": "09:00", "congestion": 85 },
-      { "time": "09:30", "congestion": 75 },
-      { "time": "10:00", "congestion": 60 }
-    ],
-    "currentTiming": { "ns": 55, "ew": 40 },
-    "recommendedTiming": { "ns": 48, "ew": 47 }
+    "congestionHistory": [{"time":"08:00","congestion":50},{"time":"08:30","congestion":70},{"time":"09:00","congestion":85},{"time":"09:30","congestion":75},{"time":"10:00","congestion":60}],
+    "currentTiming": {"ns":55,"ew":40}, "recommendedTiming": {"ns":48,"ew":47}
   },
   {
-    "id": "j-6",
-    "name": "Geeta Bhawan Square",
-    "lat": 22.7210,
-    "lng": 75.8750,
-    "status": "green",
-    "avgWaitSeconds": 20,
-    "aiOverridesToday": 2,
-    "zone": "Central Zone",
+    "id": "j-6", "name": "Geeta Bhawan Square", "lat": 22.7210, "lng": 75.8750,
+    "status": "green", "avgWaitSeconds": 20, "aiOverridesToday": 2, "zone": "Central Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 25 },
-      { "time": "08:30", "congestion": 35 },
-      { "time": "09:00", "congestion": 45 },
-      { "time": "09:30", "congestion": 40 },
-      { "time": "10:00", "congestion": 30 }
-    ],
-    "currentTiming": { "ns": 35, "ew": 35 },
-    "recommendedTiming": { "ns": 33, "ew": 37 }
+    "congestionHistory": [{"time":"08:00","congestion":25},{"time":"08:30","congestion":35},{"time":"09:00","congestion":45},{"time":"09:30","congestion":40},{"time":"10:00","congestion":30}],
+    "currentTiming": {"ns":35,"ew":35}, "recommendedTiming": {"ns":33,"ew":37}
   },
   {
-    "id": "j-7",
-    "name": "Rajiv Gandhi Square",
-    "lat": 22.6850,
-    "lng": 75.8600,
-    "status": "green",
-    "avgWaitSeconds": 18,
-    "aiOverridesToday": 1,
-    "zone": "South Zone",
+    "id": "j-7", "name": "Rajiv Gandhi Square", "lat": 22.6850, "lng": 75.8600,
+    "status": "green", "avgWaitSeconds": 18, "aiOverridesToday": 1, "zone": "South Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 15 },
-      { "time": "08:30", "congestion": 25 },
-      { "time": "09:00", "congestion": 30 },
-      { "time": "09:30", "congestion": 25 },
-      { "time": "10:00", "congestion": 20 }
-    ],
-    "currentTiming": { "ns": 30, "ew": 25 },
-    "recommendedTiming": { "ns": 28, "ew": 27 }
+    "congestionHistory": [{"time":"08:00","congestion":15},{"time":"08:30","congestion":25},{"time":"09:00","congestion":30},{"time":"09:30","congestion":25},{"time":"10:00","congestion":20}],
+    "currentTiming": {"ns":30,"ew":25}, "recommendedTiming": {"ns":28,"ew":27}
   },
   {
-    "id": "j-8",
-    "name": "Radisson Square",
-    "lat": 22.7480,
-    "lng": 75.9050,
-    "status": "red",
-    "avgWaitSeconds": 110,
-    "aiOverridesToday": 15,
-    "zone": "East Zone",
+    "id": "j-8", "name": "Radisson Square", "lat": 22.7480, "lng": 75.9050,
+    "status": "red", "avgWaitSeconds": 110, "aiOverridesToday": 15, "zone": "East Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 65 },
-      { "time": "08:30", "congestion": 80 },
-      { "time": "09:00", "congestion": 98 },
-      { "time": "09:30", "congestion": 95 },
-      { "time": "10:00", "congestion": 90 }
-    ],
-    "currentTiming": { "ns": 65, "ew": 45 },
-    "recommendedTiming": { "ns": 50, "ew": 60 }
+    "congestionHistory": [{"time":"08:00","congestion":65},{"time":"08:30","congestion":80},{"time":"09:00","congestion":98},{"time":"09:30","congestion":95},{"time":"10:00","congestion":90}],
+    "currentTiming": {"ns":65,"ew":45}, "recommendedTiming": {"ns":50,"ew":60}
   },
   {
-    "id": "j-9",
-    "name": "Rajwada Chowk",
-    "lat": 22.7187,
-    "lng": 75.8537,
-    "status": "amber",
-    "avgWaitSeconds": 55,
-    "aiOverridesToday": 6,
-    "zone": "South Zone",
+    "id": "j-9", "name": "Rajwada Chowk", "lat": 22.7187, "lng": 75.8537,
+    "status": "amber", "avgWaitSeconds": 55, "aiOverridesToday": 6, "zone": "Old City",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 45 },
-      { "time": "08:30", "congestion": 60 },
-      { "time": "09:00", "congestion": 75 },
-      { "time": "09:30", "congestion": 70 },
-      { "time": "10:00", "congestion": 55 }
-    ],
-    "currentTiming": { "ns": 50, "ew": 40 },
-    "recommendedTiming": { "ns": 45, "ew": 45 }
+    "congestionHistory": [{"time":"08:00","congestion":45},{"time":"08:30","congestion":60},{"time":"09:00","congestion":75},{"time":"09:30","congestion":70},{"time":"10:00","congestion":55}],
+    "currentTiming": {"ns":50,"ew":40}, "recommendedTiming": {"ns":45,"ew":45}
   },
   {
-    "id": "j-10",
-    "name": "Khajrana Square",
-    "lat": 22.7303,
-    "lng": 75.9042,
-    "status": "red",
-    "avgWaitSeconds": 95,
-    "aiOverridesToday": 10,
-    "zone": "East Zone",
+    "id": "j-10", "name": "Khajrana Square", "lat": 22.7303, "lng": 75.9042,
+    "status": "red", "avgWaitSeconds": 95, "aiOverridesToday": 10, "zone": "East Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 50 },
-      { "time": "08:30", "congestion": 75 },
-      { "time": "09:00", "congestion": 90 },
-      { "time": "09:30", "congestion": 85 },
-      { "time": "10:00", "congestion": 80 }
-    ],
-    "currentTiming": { "ns": 60, "ew": 45 },
-    "recommendedTiming": { "ns": 48, "ew": 57 }
+    "congestionHistory": [{"time":"08:00","congestion":50},{"time":"08:30","congestion":75},{"time":"09:00","congestion":90},{"time":"09:30","congestion":85},{"time":"10:00","congestion":80}],
+    "currentTiming": {"ns":60,"ew":45}, "recommendedTiming": {"ns":48,"ew":57}
   },
   {
-    "id": "j-11",
-    "name": "Bengali Square",
-    "lat": 22.7214,
-    "lng": 75.9080,
-    "status": "green",
-    "avgWaitSeconds": 30,
-    "aiOverridesToday": 4,
-    "zone": "East Zone",
+    "id": "j-11", "name": "Bengali Square", "lat": 22.7214, "lng": 75.9080,
+    "status": "green", "avgWaitSeconds": 30, "aiOverridesToday": 4, "zone": "East Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 35 },
-      { "time": "08:30", "congestion": 40 },
-      { "time": "09:00", "congestion": 50 },
-      { "time": "09:30", "congestion": 45 },
-      { "time": "10:00", "congestion": 38 }
-    ],
-    "currentTiming": { "ns": 40, "ew": 40 },
-    "recommendedTiming": { "ns": 38, "ew": 42 }
+    "congestionHistory": [{"time":"08:00","congestion":35},{"time":"08:30","congestion":40},{"time":"09:00","congestion":50},{"time":"09:30","congestion":45},{"time":"10:00","congestion":38}],
+    "currentTiming": {"ns":40,"ew":40}, "recommendedTiming": {"ns":38,"ew":42}
   },
   {
-    "id": "j-12",
-    "name": "Yeshwant Club Square",
-    "lat": 22.7240,
-    "lng": 75.8710,
-    "status": "green",
-    "avgWaitSeconds": 24,
-    "aiOverridesToday": 2,
-    "zone": "Central Zone",
+    "id": "j-12", "name": "Yeshwant Club Square", "lat": 22.7240, "lng": 75.8710,
+    "status": "green", "avgWaitSeconds": 24, "aiOverridesToday": 2, "zone": "Central Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 20 },
-      { "time": "08:30", "congestion": 30 },
-      { "time": "09:00", "congestion": 45 },
-      { "time": "09:30", "congestion": 35 },
-      { "time": "10:00", "congestion": 28 }
-    ],
-    "currentTiming": { "ns": 35, "ew": 35 },
-    "recommendedTiming": { "ns": 33, "ew": 37 }
+    "congestionHistory": [{"time":"08:00","congestion":20},{"time":"08:30","congestion":30},{"time":"09:00","congestion":45},{"time":"09:30","congestion":35},{"time":"10:00","congestion":28}],
+    "currentTiming": {"ns":35,"ew":35}, "recommendedTiming": {"ns":33,"ew":37}
   },
   {
-    "id": "j-13",
-    "name": "Annapurna Temple Square",
-    "lat": 22.7011,
-    "lng": 75.8340,
-    "status": "amber",
-    "avgWaitSeconds": 48,
-    "aiOverridesToday": 5,
-    "zone": "South Zone",
+    "id": "j-13", "name": "Annapurna Temple Square", "lat": 22.7011, "lng": 75.8340,
+    "status": "amber", "avgWaitSeconds": 48, "aiOverridesToday": 5, "zone": "Old City",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 35 },
-      { "time": "08:30", "congestion": 50 },
-      { "time": "09:00", "congestion": 65 },
-      { "time": "09:30", "congestion": 55 },
-      { "time": "10:00", "congestion": 42 }
-    ],
-    "currentTiming": { "ns": 45, "ew": 35 },
-    "recommendedTiming": { "ns": 40, "ew": 40 }
+    "congestionHistory": [{"time":"08:00","congestion":35},{"time":"08:30","congestion":50},{"time":"09:00","congestion":65},{"time":"09:30","congestion":55},{"time":"10:00","congestion":42}],
+    "currentTiming": {"ns":45,"ew":35}, "recommendedTiming": {"ns":40,"ew":40}
   },
   {
-    "id": "j-14",
-    "name": "Bombay Hospital Square",
-    "lat": 22.7625,
-    "lng": 75.8970,
-    "status": "red",
-    "avgWaitSeconds": 85,
-    "aiOverridesToday": 9,
-    "zone": "North Zone",
+    "id": "j-14", "name": "Bombay Hospital Square", "lat": 22.7625, "lng": 75.8970,
+    "status": "red", "avgWaitSeconds": 85, "aiOverridesToday": 9, "zone": "North Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 55 },
-      { "time": "08:30", "congestion": 70 },
-      { "time": "09:00", "congestion": 92 },
-      { "time": "09:30", "congestion": 80 },
-      { "time": "10:00", "congestion": 75 }
-    ],
-    "currentTiming": { "ns": 55, "ew": 45 },
-    "recommendedTiming": { "ns": 43, "ew": 57 }
+    "congestionHistory": [{"time":"08:00","congestion":55},{"time":"08:30","congestion":70},{"time":"09:00","congestion":92},{"time":"09:30","congestion":80},{"time":"10:00","congestion":75}],
+    "currentTiming": {"ns":55,"ew":45}, "recommendedTiming": {"ns":43,"ew":57}
   },
   {
-    "id": "j-15",
-    "name": "Lantern Square",
-    "lat": 22.7275,
-    "lng": 75.8785,
-    "status": "green",
-    "avgWaitSeconds": 20,
-    "aiOverridesToday": 1,
-    "zone": "Central Zone",
+    "id": "j-15", "name": "Lantern Square", "lat": 22.7275, "lng": 75.8785,
+    "status": "green", "avgWaitSeconds": 20, "aiOverridesToday": 1, "zone": "Central Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 22 },
-      { "time": "08:30", "congestion": 32 },
-      { "time": "09:00", "congestion": 40 },
-      { "time": "09:30", "congestion": 35 },
-      { "time": "10:00", "congestion": 25 }
-    ],
-    "currentTiming": { "ns": 30, "ew": 30 },
-    "recommendedTiming": { "ns": 28, "ew": 32 }
+    "congestionHistory": [{"time":"08:00","congestion":22},{"time":"08:30","congestion":32},{"time":"09:00","congestion":40},{"time":"09:30","congestion":35},{"time":"10:00","congestion":25}],
+    "currentTiming": {"ns":30,"ew":30}, "recommendedTiming": {"ns":28,"ew":32}
   },
   {
-    "id": "j-16",
-    "name": "Mhow Naka",
-    "lat": 22.7090,
-    "lng": 75.8450,
-    "status": "amber",
-    "avgWaitSeconds": 52,
-    "aiOverridesToday": 7,
-    "zone": "South Zone",
+    "id": "j-16", "name": "Mhow Naka", "lat": 22.7090, "lng": 75.8450,
+    "status": "amber", "avgWaitSeconds": 52, "aiOverridesToday": 7, "zone": "South Zone",
     "city": "Indore (Vijay Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 40 },
-      { "time": "08:30", "congestion": 55 },
-      { "time": "09:00", "congestion": 70 },
-      { "time": "09:30", "congestion": 65 },
-      { "time": "10:00", "congestion": 50 }
-    ],
-    "currentTiming": { "ns": 45, "ew": 35 },
-    "recommendedTiming": { "ns": 38, "ew": 42 }
+    "congestionHistory": [{"time":"08:00","congestion":40},{"time":"08:30","congestion":55},{"time":"09:00","congestion":70},{"time":"09:30","congestion":65},{"time":"10:00","congestion":50}],
+    "currentTiming": {"ns":45,"ew":35}, "recommendedTiming": {"ns":38,"ew":42}
   },
   {
-    "id": "j-b1",
-    "name": "Board Office Square",
-    "lat": 23.2324,
-    "lng": 77.4285,
-    "status": "amber",
-    "avgWaitSeconds": 40,
-    "aiOverridesToday": 8,
-    "zone": "MP Nagar Sector 1",
+    "id": "j-17", "name": "Sapna Sangeeta Square", "lat": 22.7284, "lng": 75.8616,
+    "status": "red", "avgWaitSeconds": 98, "aiOverridesToday": 14, "zone": "Central Zone",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":55},{"time":"08:30","congestion":78},{"time":"09:00","congestion":92},{"time":"09:30","congestion":88},{"time":"10:00","congestion":72}],
+    "currentTiming": {"ns":55,"ew":50}, "recommendedTiming": {"ns":42,"ew":58}
+  },
+  {
+    "id": "j-18", "name": "MR-10 (Ring Road) Flyover", "lat": 22.7460, "lng": 75.8620,
+    "status": "amber", "avgWaitSeconds": 42, "aiOverridesToday": 6, "zone": "North Zone",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":30},{"time":"08:30","congestion":48},{"time":"09:00","congestion":62},{"time":"09:30","congestion":55},{"time":"10:00","congestion":40}],
+    "currentTiming": {"ns":40,"ew":30}, "recommendedTiming": {"ns":35,"ew":35}
+  },
+  {
+    "id": "j-19", "name": "Treasure Island Square", "lat": 22.7318, "lng": 75.8695,
+    "status": "green", "avgWaitSeconds": 22, "aiOverridesToday": 3, "zone": "Central Zone",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":18},{"time":"08:30","congestion":28},{"time":"09:00","congestion":38},{"time":"09:30","congestion":32},{"time":"10:00","congestion":22}],
+    "currentTiming": {"ns":32,"ew":28}, "recommendedTiming": {"ns":30,"ew":30}
+  },
+  {
+    "id": "j-20", "name": "Bhanwar Kuwa Square", "lat": 22.7155, "lng": 75.8615,
+    "status": "amber", "avgWaitSeconds": 58, "aiOverridesToday": 8, "zone": "Old City",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":42},{"time":"08:30","congestion":62},{"time":"09:00","congestion":78},{"time":"09:30","congestion":70},{"time":"10:00","congestion":55}],
+    "currentTiming": {"ns":48,"ew":38}, "recommendedTiming": {"ns":42,"ew":44}
+  },
+  {
+    "id": "j-21", "name": "Sarafa Bazaar Gate", "lat": 22.7170, "lng": 75.8495,
+    "status": "amber", "avgWaitSeconds": 68, "aiOverridesToday": 5, "zone": "Old City",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":30},{"time":"08:30","congestion":45},{"time":"09:00","congestion":58},{"time":"09:30","congestion":82},{"time":"10:00","congestion":75}],
+    "currentTiming": {"ns":50,"ew":40}, "recommendedTiming": {"ns":45,"ew":45}
+  },
+  {
+    "id": "j-22", "name": "Holkar Stadium Gate", "lat": 22.7235, "lng": 75.8375,
+    "status": "green", "avgWaitSeconds": 15, "aiOverridesToday": 1, "zone": "Old City",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":10},{"time":"08:30","congestion":18},{"time":"09:00","congestion":25},{"time":"09:30","congestion":20},{"time":"10:00","congestion":15}],
+    "currentTiming": {"ns":25,"ew":25}, "recommendedTiming": {"ns":25,"ew":25}
+  },
+  {
+    "id": "j-23", "name": "MG Road (Cloth Market)", "lat": 22.7160, "lng": 75.8568,
+    "status": "red", "avgWaitSeconds": 102, "aiOverridesToday": 11, "zone": "Old City",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":58},{"time":"08:30","congestion":75},{"time":"09:00","congestion":90},{"time":"09:30","congestion":85},{"time":"10:00","congestion":78}],
+    "currentTiming": {"ns":58,"ew":48}, "recommendedTiming": {"ns":45,"ew":55}
+  },
+  {
+    "id": "j-24", "name": "Scheme No. 54 Square", "lat": 22.7400, "lng": 75.8820,
+    "status": "green", "avgWaitSeconds": 28, "aiOverridesToday": 4, "zone": "North Zone",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":22},{"time":"08:30","congestion":35},{"time":"09:00","congestion":42},{"time":"09:30","congestion":38},{"time":"10:00","congestion":30}],
+    "currentTiming": {"ns":35,"ew":30}, "recommendedTiming": {"ns":32,"ew":33}
+  },
+  {
+    "id": "j-25", "name": "Pipliyahana Square", "lat": 22.7405, "lng": 75.8555,
+    "status": "amber", "avgWaitSeconds": 50, "aiOverridesToday": 7, "zone": "North Zone",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":38},{"time":"08:30","congestion":52},{"time":"09:00","congestion":65},{"time":"09:30","congestion":58},{"time":"10:00","congestion":45}],
+    "currentTiming": {"ns":42,"ew":35}, "recommendedTiming": {"ns":38,"ew":39}
+  },
+  {
+    "id": "j-26", "name": "Sudama Nagar Square", "lat": 22.7120, "lng": 75.8780,
+    "status": "green", "avgWaitSeconds": 19, "aiOverridesToday": 2, "zone": "South Zone",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":15},{"time":"08:30","congestion":22},{"time":"09:00","congestion":35},{"time":"09:30","congestion":28},{"time":"10:00","congestion":20}],
+    "currentTiming": {"ns":28,"ew":28}, "recommendedTiming": {"ns":26,"ew":30}
+  },
+  {
+    "id": "j-27", "name": "Silicon City (Bypass Road)", "lat": 22.7580, "lng": 75.9180,
+    "status": "green", "avgWaitSeconds": 12, "aiOverridesToday": 0, "zone": "East Zone",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":10},{"time":"08:30","congestion":15},{"time":"09:00","congestion":22},{"time":"09:30","congestion":18},{"time":"10:00","congestion":12}],
+    "currentTiming": {"ns":25,"ew":25}, "recommendedTiming": {"ns":25,"ew":25}
+  },
+  {
+    "id": "j-28", "name": "C21 Mall Junction", "lat": 22.7565, "lng": 75.8850,
+    "status": "amber", "avgWaitSeconds": 38, "aiOverridesToday": 5, "zone": "North Zone",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":25},{"time":"08:30","congestion":40},{"time":"09:00","congestion":55},{"time":"09:30","congestion":48},{"time":"10:00","congestion":35}],
+    "currentTiming": {"ns":38,"ew":30}, "recommendedTiming": {"ns":34,"ew":34}
+  },
+  {
+    "id": "j-29", "name": "Chappan Dukan Square", "lat": 22.7260, "lng": 75.8730,
+    "status": "amber", "avgWaitSeconds": 44, "aiOverridesToday": 6, "zone": "Central Zone",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":32},{"time":"08:30","congestion":48},{"time":"09:00","congestion":62},{"time":"09:30","congestion":55},{"time":"10:00","congestion":40}],
+    "currentTiming": {"ns":40,"ew":35}, "recommendedTiming": {"ns":36,"ew":39}
+  },
+  {
+    "id": "j-30", "name": "Nandlalpura Square", "lat": 22.7130, "lng": 75.8510,
+    "status": "green", "avgWaitSeconds": 16, "aiOverridesToday": 1, "zone": "Old City",
+    "city": "Indore (Vijay Nagar)",
+    "congestionHistory": [{"time":"08:00","congestion":12},{"time":"08:30","congestion":20},{"time":"09:00","congestion":28},{"time":"09:30","congestion":22},{"time":"10:00","congestion":16}],
+    "currentTiming": {"ns":26,"ew":24}, "recommendedTiming": {"ns":25,"ew":25}
+  },
+  {
+    "id": "j-b1", "name": "Board Office Square", "lat": 23.2324, "lng": 77.4285,
+    "status": "amber", "avgWaitSeconds": 40, "aiOverridesToday": 8, "zone": "MP Nagar Sector 1",
     "city": "Bhopal (MP Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 30 },
-      { "time": "08:30", "congestion": 50 },
-      { "time": "09:00", "congestion": 75 },
-      { "time": "09:30", "congestion": 60 },
-      { "time": "10:00", "congestion": 45 }
-    ],
-    "currentTiming": { "ns": 40, "ew": 30 },
-    "recommendedTiming": { "ns": 35, "ew": 35 }
+    "congestionHistory": [{"time":"08:00","congestion":30},{"time":"08:30","congestion":50},{"time":"09:00","congestion":75},{"time":"09:30","congestion":60},{"time":"10:00","congestion":45}],
+    "currentTiming": {"ns":40,"ew":30}, "recommendedTiming": {"ns":35,"ew":35}
   },
   {
-    "id": "j-b2",
-    "name": "Jyoti Talkies Square",
-    "lat": 23.2300,
-    "lng": 77.4330,
-    "status": "red",
-    "avgWaitSeconds": 90,
-    "aiOverridesToday": 14,
-    "zone": "MP Nagar Sector 2",
+    "id": "j-b2", "name": "Jyoti Talkies Square", "lat": 23.2300, "lng": 77.4330,
+    "status": "red", "avgWaitSeconds": 90, "aiOverridesToday": 14, "zone": "MP Nagar Sector 2",
     "city": "Bhopal (MP Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 60 },
-      { "time": "08:30", "congestion": 80 },
-      { "time": "09:00", "congestion": 95 },
-      { "time": "09:30", "congestion": 85 },
-      { "time": "10:00", "congestion": 70 }
-    ],
-    "currentTiming": { "ns": 55, "ew": 45 },
-    "recommendedTiming": { "ns": 42, "ew": 58 }
+    "congestionHistory": [{"time":"08:00","congestion":60},{"time":"08:30","congestion":80},{"time":"09:00","congestion":95},{"time":"09:30","congestion":85},{"time":"10:00","congestion":70}],
+    "currentTiming": {"ns":55,"ew":45}, "recommendedTiming": {"ns":42,"ew":58}
   },
   {
-    "id": "j-b3",
-    "name": "Chetak Bridge",
-    "lat": 23.2380,
-    "lng": 77.4370,
-    "status": "green",
-    "avgWaitSeconds": 20,
-    "aiOverridesToday": 3,
-    "zone": "MP Nagar Sector 1",
+    "id": "j-b3", "name": "Chetak Bridge", "lat": 23.2380, "lng": 77.4370,
+    "status": "green", "avgWaitSeconds": 20, "aiOverridesToday": 3, "zone": "MP Nagar Sector 1",
     "city": "Bhopal (MP Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 25 },
-      { "time": "08:30", "congestion": 35 },
-      { "time": "09:00", "congestion": 45 },
-      { "time": "09:30", "congestion": 40 },
-      { "time": "10:00", "congestion": 30 }
-    ],
-    "currentTiming": { "ns": 30, "ew": 30 },
-    "recommendedTiming": { "ns": 30, "ew": 30 }
+    "congestionHistory": [{"time":"08:00","congestion":25},{"time":"08:30","congestion":35},{"time":"09:00","congestion":45},{"time":"09:30","congestion":40},{"time":"10:00","congestion":30}],
+    "currentTiming": {"ns":30,"ew":30}, "recommendedTiming": {"ns":30,"ew":30}
   },
   {
-    "id": "j-b4",
-    "name": "DB Mall Crossing",
-    "lat": 23.2360,
-    "lng": 77.4290,
-    "status": "amber",
-    "avgWaitSeconds": 50,
-    "aiOverridesToday": 11,
-    "zone": "MP Nagar Sector 2",
+    "id": "j-b4", "name": "DB Mall Crossing", "lat": 23.2360, "lng": 77.4290,
+    "status": "amber", "avgWaitSeconds": 50, "aiOverridesToday": 11, "zone": "MP Nagar Sector 2",
     "city": "Bhopal (MP Nagar)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 40 },
-      { "time": "08:30", "congestion": 65 },
-      { "time": "09:00", "congestion": 80 },
-      { "time": "09:30", "congestion": 70 },
-      { "time": "10:00", "congestion": 55 }
-    ],
-    "currentTiming": { "ns": 45, "ew": 35 },
-    "recommendedTiming": { "ns": 38, "ew": 42 }
+    "congestionHistory": [{"time":"08:00","congestion":40},{"time":"08:30","congestion":65},{"time":"09:00","congestion":80},{"time":"09:30","congestion":70},{"time":"10:00","congestion":55}],
+    "currentTiming": {"ns":45,"ew":35}, "recommendedTiming": {"ns":38,"ew":42}
   },
   {
-    "id": "j-p1",
-    "name": "Shivaji Chowk",
-    "lat": 18.5913,
-    "lng": 73.7386,
-    "status": "red",
-    "avgWaitSeconds": 105,
-    "aiOverridesToday": 21,
-    "zone": "Hinjewadi Phase 1",
+    "id": "j-p1", "name": "Shivaji Chowk", "lat": 18.5913, "lng": 73.7386,
+    "status": "red", "avgWaitSeconds": 105, "aiOverridesToday": 21, "zone": "Hinjewadi Phase 1",
     "city": "Pune (Hinjewadi)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 65 },
-      { "time": "08:30", "congestion": 85 },
-      { "time": "09:00", "congestion": 98 },
-      { "time": "09:30", "congestion": 90 },
-      { "time": "10:00", "congestion": 80 }
-    ],
-    "currentTiming": { "ns": 60, "ew": 40 },
-    "recommendedTiming": { "ns": 45, "ew": 55 }
+    "congestionHistory": [{"time":"08:00","congestion":65},{"time":"08:30","congestion":85},{"time":"09:00","congestion":98},{"time":"09:30","congestion":90},{"time":"10:00","congestion":80}],
+    "currentTiming": {"ns":60,"ew":40}, "recommendedTiming": {"ns":45,"ew":55}
   },
   {
-    "id": "j-p2",
-    "name": "Wipro Circle",
-    "lat": 18.5800,
-    "lng": 73.7380,
-    "status": "amber",
-    "avgWaitSeconds": 55,
-    "aiOverridesToday": 9,
-    "zone": "Hinjewadi Phase 2",
+    "id": "j-p2", "name": "Wipro Circle", "lat": 18.5800, "lng": 73.7380,
+    "status": "amber", "avgWaitSeconds": 55, "aiOverridesToday": 9, "zone": "Hinjewadi Phase 2",
     "city": "Pune (Hinjewadi)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 45 },
-      { "time": "08:30", "congestion": 60 },
-      { "time": "09:00", "congestion": 78 },
-      { "time": "09:30", "congestion": 70 },
-      { "time": "10:00", "congestion": 50 }
-    ],
-    "currentTiming": { "ns": 45, "ew": 35 },
-    "recommendedTiming": { "ns": 40, "ew": 40 }
+    "congestionHistory": [{"time":"08:00","congestion":45},{"time":"08:30","congestion":60},{"time":"09:00","congestion":78},{"time":"09:30","congestion":70},{"time":"10:00","congestion":50}],
+    "currentTiming": {"ns":45,"ew":35}, "recommendedTiming": {"ns":40,"ew":40}
   },
   {
-    "id": "j-p3",
-    "name": "Hinjewadi Phase 3",
-    "lat": 18.5750,
-    "lng": 73.7020,
-    "status": "green",
-    "avgWaitSeconds": 15,
-    "aiOverridesToday": 1,
-    "zone": "Hinjewadi Phase 3",
+    "id": "j-p3", "name": "Hinjewadi Phase 3", "lat": 18.5750, "lng": 73.7020,
+    "status": "green", "avgWaitSeconds": 15, "aiOverridesToday": 1, "zone": "Hinjewadi Phase 3",
     "city": "Pune (Hinjewadi)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 20 },
-      { "time": "08:30", "congestion": 25 },
-      { "time": "09:00", "congestion": 35 },
-      { "time": "09:30", "congestion": 30 },
-      { "time": "10:00", "congestion": 20 }
-    ],
-    "currentTiming": { "ns": 30, "ew": 30 },
-    "recommendedTiming": { "ns": 30, "ew": 30 }
+    "congestionHistory": [{"time":"08:00","congestion":20},{"time":"08:30","congestion":25},{"time":"09:00","congestion":35},{"time":"09:30","congestion":30},{"time":"10:00","congestion":20}],
+    "currentTiming": {"ns":30,"ew":30}, "recommendedTiming": {"ns":30,"ew":30}
   },
   {
-    "id": "j-p4",
-    "name": "Wakad Flyover Chowk",
-    "lat": 18.5980,
-    "lng": 73.7550,
-    "status": "red",
-    "avgWaitSeconds": 98,
-    "aiOverridesToday": 16,
-    "zone": "Hinjewadi Phase 1",
+    "id": "j-p4", "name": "Wakad Flyover Chowk", "lat": 18.5980, "lng": 73.7550,
+    "status": "red", "avgWaitSeconds": 98, "aiOverridesToday": 16, "zone": "Hinjewadi Phase 1",
     "city": "Pune (Hinjewadi)",
-    "congestionHistory": [
-      { "time": "08:00", "congestion": 50 },
-      { "time": "08:30", "congestion": 75 },
-      { "time": "09:00", "congestion": 92 },
-      { "time": "09:30", "congestion": 88 },
-      { "time": "10:00", "congestion": 82 }
-    ],
-    "currentTiming": { "ns": 55, "ew": 45 },
-    "recommendedTiming": { "ns": 40, "ew": 60 }
+    "congestionHistory": [{"time":"08:00","congestion":50},{"time":"08:30","congestion":75},{"time":"09:00","congestion":92},{"time":"09:30","congestion":88},{"time":"10:00","congestion":82}],
+    "currentTiming": {"ns":55,"ew":45}, "recommendedTiming": {"ns":40,"ew":60}
   }
 ]
