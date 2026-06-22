@@ -9,6 +9,7 @@ import { showToast } from '../components/ui/Toast';
 import { Siren, MapPin, Flame, ShieldCheck, Compass, ShieldAlert } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, BarChart, Bar, XAxis, YAxis } from 'recharts';
+import { CorridorTerminal } from '../components/emergency/CorridorTerminal';
 
 const corridorPath: [number, number][] = [
   [22.7533, 75.8937],
@@ -304,6 +305,14 @@ const EmergencyCorridor: React.FC = () => {
               </div>
             </div>
           </div>
+
+          {/* Live Green-Wave Terminal */}
+          <CorridorTerminal
+            isActive={isActive}
+            vehicleType={vehicleType}
+            destination={destination}
+            eta={eta}
+          />
         </div>
       )}
     </motion.div>
