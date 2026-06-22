@@ -97,7 +97,7 @@ const CommandCenter: React.FC = () => {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
         <StatCard label="Road Closures" value="9" icon={<Cone size={20} />} tint="amber" to="/traffic" />
         <StatCard label="Incidents" value="4" icon={<ShieldAlert size={20} />} tint="red" to="/emergency-corridor" />
-        <StatCard label="Avg Delay" value="11m" icon={<Clock size={20} />} tint="primary" to="/transport" />
+        <StatCard label="Avg Delay" value="11m" icon={<Clock size={20} />} tint="primary" />
       </div>
 
       {/* Bottom Row: Charts & Sparkline Trends */}

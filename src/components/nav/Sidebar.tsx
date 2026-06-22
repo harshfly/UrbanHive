@@ -1,10 +1,10 @@
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import {
-  Home, Network, Cpu, Siren, Zap, MapPin, BusFront, BarChart3, Settings, Camera,
+  Home, Network, Cpu, Siren, Zap, MapPin, BarChart3, Camera,
 } from 'lucide-react';
 import { useAppStore } from '../../store/useAppStore';
-import { cn } from '../ui/Badge';
+import { cn } from '../../theme/cn';
 import { motion } from 'framer-motion';
 
 const logoSvg = (
@@ -32,9 +32,7 @@ const navItems = [
   { label: 'Emergency Corridor', to: '/emergency-corridor', icon: Siren, highlightOnActiveCorridor: true },
   { label: 'EV & Charging', to: '/ev-charging', icon: Zap },
   { label: 'Parking Map', to: '/parking', icon: MapPin },
-  { label: 'Transit Fleet', to: '/transport', icon: BusFront },
   { label: 'System Reports', to: '/reports', icon: BarChart3 },
-  { label: 'Control Settings', to: '/settings', icon: Settings },
 ];
 
 export const Sidebar: React.FC = () => {

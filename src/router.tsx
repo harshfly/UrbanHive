@@ -7,9 +7,7 @@ import JunctionDetail from './pages/JunctionDetail';
 import EmergencyCorridor from './pages/EmergencyCorridor';
 import EvCharging from './pages/EvCharging';
 import Parking from './pages/Parking';
-import PublicTransport from './pages/PublicTransport';
 import Reports from './pages/Reports';
-import Settings from './pages/Settings';
 import Cameras from './pages/Cameras';
 
 export const router = createBrowserRouter([
@@ -23,9 +21,7 @@ export const router = createBrowserRouter([
       { path: '/emergency-corridor', element: <EmergencyCorridor /> },
       { path: '/ev-charging', element: <EvCharging /> },
       { path: '/parking', element: <Parking /> },
-      { path: '/transport', element: <PublicTransport /> },
       { path: '/reports', element: <Reports /> },
-      { path: '/settings', element: <Settings /> },
       { path: '/cameras', element: <Cameras /> },
     ],
   },
