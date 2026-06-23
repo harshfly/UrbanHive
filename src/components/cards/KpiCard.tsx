@@ -49,8 +49,8 @@ export const KpiCard: React.FC<KpiCardProps> = ({
   };
 
   const colors = {
-    positive: '#10B981', // emerald
-    negative: '#EF4444', // rose
+    positive: '#34C759', // green
+    negative: '#FF3B30', // red
     neutral: '#0071E3',  // primary blue
   };
 
@@ -66,7 +66,7 @@ export const KpiCard: React.FC<KpiCardProps> = ({
     <motion.div
       whileHover={{ y: -3, scale: 1.01, transition: { duration: 0.2 } }}
       className={cn(
-        "relative overflow-hidden bg-bg-surface/85 backdrop-blur-md border border-border-subtle rounded-2xl p-3.5 flex flex-col justify-between shadow-sm hover:shadow-md hover:border-border-strong/40 transition-all select-none group min-h-[130px]",
+        "relative overflow-hidden bg-bg-surface/85 backdrop-blur-md border border-border-subtle rounded-xl md:rounded-2xl p-2.5 md:p-3.5 flex flex-col justify-between shadow-sm hover:shadow-md hover:border-border-strong/40 transition-all select-none group min-h-[86px] md:min-h-[130px]",
         className
       )}
     >
@@ -79,20 +79,21 @@ export const KpiCard: React.FC<KpiCardProps> = ({
       <div className="flex items-start justify-between gap-2.5">
         {/* Left: Metadata */}
         <div className="min-w-0 flex-1 z-10">
-          <span className="text-[9px] font-extrabold text-text-tertiary uppercase tracking-widest block truncate">
+          <span className="text-[8px] md:text-[9px] font-extrabold text-text-tertiary uppercase tracking-widest block truncate">
             {label}
           </span>
-          <span className="text-[20px] font-mono font-bold text-text-primary mt-0.5 block tracking-tight truncate leading-none">
+          <span className="text-base md:text-[20px] font-mono font-bold text-text-primary mt-0.5 block tracking-tight truncate leading-none">
             {value}
           </span>
         </div>
 
         {/* Right: Icon Box */}
         <div className={cn(
-          "w-8 h-8 rounded-xl flex items-center justify-center shrink-0 shadow-inner z-10 transition-transform group-hover:scale-105", 
+          "w-7 h-7 md:w-8 md:h-8 rounded-lg md:rounded-xl flex items-center justify-center shrink-0 shadow-inner z-10 transition-transform group-hover:scale-105", 
           iconColor === 'text-accent-primary' ? 'bg-accent-primary-soft' : 
           iconColor === 'text-accent-amber' ? 'bg-accent-amber-soft' : 
-          iconColor === 'text-accent-red' ? 'bg-accent-red-soft' : 'bg-accent-blue-soft'
+          iconColor === 'text-accent-red' ? 'bg-accent-red-soft' : 
+          iconColor === 'text-accent-green' ? 'bg-accent-green-soft' : 'bg-accent-blue-soft'
         )}>
           <span className={cn(iconColor, "flex items-center justify-center [&>svg]:w-[16px] [&>svg]:h-[16px]")}>{icon}</span>
         </div>
@@ -100,7 +101,7 @@ export const KpiCard: React.FC<KpiCardProps> = ({
 
       {/* Interactive Micro AreaChart */}
       {data && data.length > 0 && (
-        <div className="h-8 mt-2 w-full shrink-0 overflow-visible relative z-10">
+        <div className="h-6 md:h-8 mt-1.5 md:mt-2 w-full shrink-0 overflow-visible relative z-10">
           <ResponsiveContainer width="100%" height="100%">
             <AreaChart data={data} margin={{ top: 2, right: 2, left: 2, bottom: 2 }}>
               <defs>
@@ -129,7 +130,7 @@ export const KpiCard: React.FC<KpiCardProps> = ({
       )}
 
       {/* Bottom details & change status */}
-      <div className="flex items-center justify-between gap-3 mt-2 z-10">
+      <div className="flex items-center justify-between gap-3 mt-1.5 md:mt-2 z-10">
         <span className="text-[8px] font-bold text-text-tertiary uppercase tracking-wider">
           Live Telemetry
         </span>

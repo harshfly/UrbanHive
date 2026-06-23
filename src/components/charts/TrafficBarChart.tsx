@@ -49,9 +49,9 @@ export const TrafficBarChart: React.FC<TrafficBarChartProps> = ({ className }) =
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center my-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 items-center my-2 md:my-4">
         {/* Radial Rings */}
-        <div className="h-44 flex items-center justify-center relative">
+        <div className="h-32 md:h-44 flex items-center justify-center relative">
           <ResponsiveContainer width="100%" height="100%">
             <RadialBarChart
               cx="50%"
@@ -74,7 +74,7 @@ export const TrafficBarChart: React.FC<TrafficBarChartProps> = ({ className }) =
         </div>
 
         {/* Custom Legend & Stats */}
-        <div className="flex flex-col gap-2.5">
+        <div className="flex flex-col gap-1.5 md:gap-2.5">
           {data.map((item, i) => (
             <div key={i} className="flex items-center justify-between border-b border-border-subtle/50 pb-1.5 last:border-0 last:pb-0">
               <div className="flex items-center gap-2 min-w-0">
@@ -87,16 +87,6 @@ export const TrafficBarChart: React.FC<TrafficBarChartProps> = ({ className }) =
         </div>
       </div>
 
-      {/* Analytics Insights */}
-      <div className="bg-bg-canvas/50 border border-border-subtle/50 rounded-2xl p-3 mt-1">
-        <span className="text-[9px] uppercase tracking-wider text-text-secondary font-bold block mb-1">System Recommendation</span>
-        <div className="flex items-start gap-1.5 text-xs text-text-primary font-medium">
-          <ArrowUpRight size={14} className="text-accent-red shrink-0 mt-0.5" />
-          <p>
-            Retime <strong className="font-bold">Geeta Bhawan</strong> signals (+12s green phase) to offset incoming AB Road transit queues.
-          </p>
-        </div>
-      </div>
     </div>
   );
 };

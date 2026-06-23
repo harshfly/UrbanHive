@@ -205,27 +205,6 @@ export const WeatherSandbox: React.FC<{ className?: string }> = ({ className }) 
           </div>
         </div>
 
-        {/* AI weather advisory */}
-        <AnimatePresence mode="wait">
-          {weather !== 'sunny' && (
-            <motion.div
-              key={weather}
-              initial={{ opacity: 0, y: 5 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -5 }}
-              className="bg-accent-amber-soft/60 border border-amber-200/50 rounded-xl p-3 mt-3"
-            >
-              <div className="flex items-start gap-2 text-xs text-text-primary font-medium leading-relaxed">
-                <AlertTriangle size={14} className="text-accent-amber shrink-0 mt-0.5" />
-                <p>
-                  {weather === 'rain' && 'Hydroplaning risk elevated on AB Road corridor. Speed limits reduced to 40km/h. Signal green phases extended +8s for safer braking.'}
-                  {weather === 'fog' && 'Low visibility alert active. All camera AI overlays switched to thermal mode. Vehicle following distances increased. BRTS speed reduced to 30km/h.'}
-                  {weather === 'storm' && 'Severe weather protocol engaged. Emergency corridors on standby. Parking garages have activated flood barriers. EV charging temporarily paused at open-air stations.'}
-                </p>
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
       </div>
     </>
   );

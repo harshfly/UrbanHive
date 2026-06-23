@@ -8,7 +8,7 @@ interface BadgeProps extends React.HTMLAttributes<HTMLDivElement> {
 
 export const Badge: React.FC<BadgeProps> = ({ children, variant = 'neutral', dot, className, ...props }) => {
   const variantStyles = {
-    green: 'bg-accent-primary-soft text-accent-primary',
+    green: 'bg-accent-green-soft text-accent-green',
     amber: 'bg-accent-amber-soft text-accent-amber',
     red: 'bg-accent-red-soft text-accent-red',
     blue: 'bg-accent-blue-soft text-accent-blue',
@@ -17,7 +17,7 @@ export const Badge: React.FC<BadgeProps> = ({ children, variant = 'neutral', dot
   };
 
   const dotStyles = {
-    green: 'bg-accent-primary',
+    green: 'bg-accent-green',
     amber: 'bg-accent-amber',
     red: 'bg-accent-red',
     blue: 'bg-accent-blue',

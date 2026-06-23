@@ -63,12 +63,13 @@ export const SparklineCard: React.FC<SparklineCardProps> = ({
   const navigate = useNavigate();
 
   // Calculate statistics from the dataset
-  const values = data.map((d) => d.value);
+  const values = data ? data.map((d) => d.value) : [];
   const calculatedPeak = values.length > 0 ? Math.max(...values) : 0;
   const calculatedAvg = values.length > 0 ? Math.round(values.reduce((a, b) => a + b, 0) / values.length) : 0;
 
-  const finalPeak = peakValue || formatValue(calculatedPeak, valueType);
-  const finalAvg = avgValue || formatValue(calculatedAvg, valueType);
+  const hasData = data && data.length > 0;
+  const finalPeak = hasData ? (peakValue || formatValue(calculatedPeak, valueType)) : '--';
+  const finalAvg = hasData ? (avgValue || formatValue(calculatedAvg, valueType)) : '--';
 
   return (
     <div className={cn("bg-bg-surface border border-border-subtle rounded-3xl p-5 shadow-sm hover:shadow-md transition-all flex flex-col gap-3", className)}>
@@ -96,41 +97,50 @@ export const SparklineCard: React.FC<SparklineCardProps> = ({
       </div>
 
       {/* Interactive area chart */}
-      <div className="h-28 mt-1">
-        <ResponsiveContainer width="100%" height="100%">
-          <AreaChart data={data} margin={{ top: 5, right: 5, left: -28, bottom: 0 }}>
-            <defs>
-              <linearGradient id={`grad-${title.replace(/[^a-zA-Z0-9]/g, '')}`} x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stopColor={color} stopOpacity={0.25} />
-                <stop offset="100%" stopColor={color} stopOpacity={0.01} />
-              </linearGradient>
-            </defs>
-            <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F5F5F7" />
-            <XAxis
-              dataKey="label"
-              tick={{ fontSize: 8, fill: '#8E8E93', fontWeight: 'bold' }}
-              axisLine={false}
-              tickLine={false}
-              dy={5}
-            />
-            <YAxis
-              tick={{ fontSize: 8, fill: '#8E8E93', fontWeight: 'bold' }}
-              axisLine={false}
-              tickLine={false}
-              dx={-5}
-            />
-            <Tooltip content={<CustomTooltip valueType={valueType} />} cursor={{ stroke: '#AEAEB2', strokeWidth: 1, strokeDasharray: '3 3' }} />
-            <Area
-              type="monotone"
-              dataKey="value"
-              stroke={color}
-              strokeWidth={2}
-              fill={`url(#grad-${title.replace(/[^a-zA-Z0-9]/g, '')})`}
-              animationDuration={400}
-              animationEasing="ease-out"
-            />
-          </AreaChart>
-        </ResponsiveContainer>
+      <div className="h-28 mt-1 flex items-center justify-center w-full">
+        {hasData ? (
+          <ResponsiveContainer width="100%" height="100%">
+            <AreaChart data={data} margin={{ top: 5, right: 5, left: -28, bottom: 0 }}>
+              <defs>
+                <linearGradient id={`grad-${title.replace(/[^a-zA-Z0-9]/g, '')}`} x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor={color} stopOpacity={0.25} />
+                  <stop offset="100%" stopColor={color} stopOpacity={0.01} />
+                </linearGradient>
+              </defs>
+              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F5F5F7" />
+              <XAxis
+                dataKey="label"
+                tick={{ fontSize: 8, fill: '#8E8E93', fontWeight: 'bold' }}
+                axisLine={false}
+                tickLine={false}
+                dy={5}
+              />
+              <YAxis
+                tick={{ fontSize: 8, fill: '#8E8E93', fontWeight: 'bold' }}
+                axisLine={false}
+                tickLine={false}
+                dx={-5}
+              />
+              <Tooltip content={<CustomTooltip valueType={valueType} />} cursor={{ stroke: '#AEAEB2', strokeWidth: 1, strokeDasharray: '3 3' }} />
+              <Area
+                type="monotone"
+                dataKey="value"
+                stroke={color}
+                strokeWidth={2}
+                fill={`url(#grad-${title.replace(/[^a-zA-Z0-9]/g, '')})`}
+                animationDuration={400}
+                animationEasing="ease-out"
+              />
+            </AreaChart>
+          </ResponsiveContainer>
+        ) : (
+          <div className="flex flex-col items-center justify-center text-center p-4">
+            <span className="text-[10px] font-bold text-text-secondary uppercase tracking-wider">No Telemetry Received</span>
+            <span className="text-[9px] text-text-tertiary mt-1 max-w-[200px] leading-relaxed">
+              This corridor is currently offline or undergoing scheduling calibration.
+            </span>
+          </div>
+        )}
       </div>
 
       {linkTo && (

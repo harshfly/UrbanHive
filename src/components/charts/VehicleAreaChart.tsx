@@ -46,9 +46,9 @@ export const VehicleAreaChart: React.FC<VehicleAreaChartProps> = ({ className })
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center my-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 items-center my-2 md:my-4">
         {/* Donut Chart with absolute center text */}
-        <div className="h-44 flex items-center justify-center relative">
+        <div className="h-32 md:h-44 flex items-center justify-center relative">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
               <Pie
@@ -78,7 +78,7 @@ export const VehicleAreaChart: React.FC<VehicleAreaChartProps> = ({ className })
         </div>
 
         {/* Legend */}
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-1.5 md:gap-2">
           {data.map((item, i) => (
             <div key={i} className="flex items-center justify-between border-b border-border-subtle/50 pb-1.5 last:border-0 last:pb-0">
               <div className="flex items-center gap-2 min-w-0">
@@ -91,16 +91,6 @@ export const VehicleAreaChart: React.FC<VehicleAreaChartProps> = ({ className })
         </div>
       </div>
 
-      {/* AI Analysis Insight */}
-      <div className="bg-bg-canvas/50 border border-border-subtle/50 rounded-2xl p-3 mt-1">
-        <span className="text-[9px] uppercase tracking-wider text-text-secondary font-bold block mb-1">Carbon Reduction Analytics</span>
-        <div className="flex items-start gap-1.5 text-xs text-text-primary font-medium">
-          <Leaf size={14} className="text-accent-primary shrink-0 mt-0.5" />
-          <p>
-            EV segment adoption prevents <strong className="font-bold text-accent-primary">12.4 tons</strong> of daily CO₂ emissions compared to baseline models.
-          </p>
-        </div>
-      </div>
     </div>
   );
 };
