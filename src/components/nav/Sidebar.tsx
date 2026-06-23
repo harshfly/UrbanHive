@@ -61,21 +61,12 @@ export const Sidebar: React.FC = () => {
         )}
       </AnimatePresence>
 
-      <motion.aside 
-        drag="y"
-        dragConstraints={{ top: 0, bottom: 0 }}
-        dragElastic={{ top: 0, bottom: 0.6 }}
-        onDragEnd={(e, info) => {
-          if (info.offset.y > 100 || info.velocity.y > 400) {
-            setMobileMenuOpen(false);
-          }
-        }}
-        className={cn(
+      <aside className={cn(
         "bg-bg-surface flex flex-col justify-between shrink-0 z-50 transition-transform duration-300 shadow-[6px_0_30px_rgba(16,20,36,0.03)]",
         // Desktop Layout
         "md:flex md:w-64 md:border-r md:border-border-subtle md:h-full md:relative md:translate-y-0",
         // Mobile Layout (Bottom Sheet)
-        "fixed bottom-0 left-0 right-0 h-[80vh] rounded-t-3xl border-t border-border-subtle overflow-hidden md:!transform-none",
+        "fixed bottom-0 left-0 right-0 h-[80vh] rounded-t-3xl border-t border-border-subtle overflow-hidden",
         mobileMenuOpen ? "translate-y-0" : "translate-y-full"
       )}>
         {/* Mobile Drag Handle */}
@@ -180,7 +171,7 @@ export const Sidebar: React.FC = () => {
             </button>
           </div>
         </div>
-      </motion.aside>
+      </aside>
     </>
   );
 };
